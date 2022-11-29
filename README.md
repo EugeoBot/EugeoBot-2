@@ -46,4 +46,4 @@ run :
 
 to start the bot
 
-### Enjoy Our bot made with love by Zakaria BAQASSE & Kaoutar SOUGRATI 😉
+### Enjoy Our bot made by Zakaria BAQASSE & Kaoutar SOUGRATI 😉
