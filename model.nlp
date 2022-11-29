@@ -1,0 +1,2760 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "for,goodby,now": {
+            "intent": "greetings.bye",
+            "domain": "default"
+          },
+          "bye,care,take": {
+            "intent": "greetings.bye",
+            "domain": "default"
+          },
+          "later,okay,see,you": {
+            "intent": "greetings.bye",
+            "domain": "default"
+          },
+          "bye,for,now": {
+            "intent": "greetings.bye",
+            "domain": "default"
+          },
+          "go,i,must": {
+            "intent": "greetings.bye",
+            "domain": "default"
+          },
+          "a,can,human,i,real,talk,to": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "a,connect,live,me,person,pleas,to": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "an,employe,me,pleas,redirect,to": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "can,human,i,someon,talk,to": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "chat,enter,i,live,the,to,want": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "actual,and,chatbot,connect,could,flesh,from,get,hate,i,made,me,my,of,out,pleas,screen,so,someon,thank,to,you": {
+            "intent": "user.redirect",
+            "domain": "default"
+          },
+          "thank": {
+            "intent": "user.thanking",
+            "domain": "default"
+          },
+          "thank,you": {
+            "intent": "user.thanking",
+            "domain": "default"
+          },
+          "a,billion,thank": {
+            "intent": "user.thanking",
+            "domain": "default"
+          },
+          "thx": {
+            "intent": "user.thanking",
+            "domain": "default"
+          },
+          "grate": {
+            "intent": "user.thanking",
+            "domain": "default"
+          },
+          "can,i,price,see,the": {
+            "intent": "user.pricing",
+            "domain": "default"
+          },
+          "is,price,the,what": {
+            "intent": "user.pricing",
+            "domain": "default"
+          },
+          "how,is,it,much": {
+            "intent": "user.pricing",
+            "domain": "default"
+          },
+          "do,have,how,i,much,pay,to": {
+            "intent": "user.pricing",
+            "domain": "default"
+          },
+          "hello": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "hi": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "howdi": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "hey": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "greet": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "hey,there": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "hola": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "is,up,what": {
+            "intent": "greetings.hello",
+            "domain": "default"
+          },
+          "an,appoint,book,had,i,like,to": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "doc,i,see,the,to,want": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "can,doctor,i,see,the": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "avail,doctor,is,the,when": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "help,i,knee,my,some,want,with": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "@doctor,i,see,to,want": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "@doctor,had,i,like,to,visit": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "@doctor,avail,is": {
+            "intent": "user.book",
+            "domain": "default"
+          },
+          "anoth,pls,reserv": {
+            "intent": "user.book",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "greetings.bye": "default",
+          "user.redirect": "default",
+          "user.thanking": "default",
+          "user.pricing": "default",
+          "greetings.hello": "default",
+          "user.book": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "goodbye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye bye take care",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "okay see you later",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "i must go",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to a real human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please connect me to a living person",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please redirect me to an employee",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to someone human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to enter the live chat",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thank you",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks a billion",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thx",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "grateful",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the prices?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the pricing?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much is it?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much do I have to pay?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey there",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's up?",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to book an appointment",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I wanna see the doc",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the doctor?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "When is the doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want some help with my knee",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to see @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to visit @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Is @doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "another reservation pls",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "goodbye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye bye take care",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "okay see you later",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "i must go",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to a real human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please connect me to a living person",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please redirect me to an employee",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to someone human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to enter the live chat",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thank you",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks a billion",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thx",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "grateful",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the prices?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the pricing?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much is it?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much do I have to pay?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey there",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's up?",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to book an appointment",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I wanna see the doc",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the doctor?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "When is the doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want some help with my knee",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to see @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to visit @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Is @doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "another reservation pls",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "goodbye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye bye take care",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "okay see you later",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "i must go",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to a real human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please connect me to a living person",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please redirect me to an employee",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to someone human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to enter the live chat",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thank you",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks a billion",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thx",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "grateful",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the prices?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the pricing?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much is it?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much do I have to pay?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey there",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's up?",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to book an appointment",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I wanna see the doc",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the doctor?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "When is the doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want some help with my knee",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to see @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to visit @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Is @doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "another reservation pls",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "goodbye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye bye take care",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "okay see you later",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye for now",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "i must go",
+            "intent": "greetings.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to a real human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please connect me to a living person",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Please redirect me to an employee",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I talk to someone human?",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to enter the live chat",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks",
+            "intent": "user.redirect"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thank you",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks a billion",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "thx",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "grateful",
+            "intent": "user.thanking"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the prices?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the pricing?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much is it?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "How much do I have to pay?",
+            "intent": "user.pricing"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey there",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's up?",
+            "intent": "greetings.hello"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to book an appointment",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I wanna see the doc",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I see the doctor?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "When is the doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want some help with my knee",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I want to see @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "I'd like to visit @doctor",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "Is @doctor available?",
+            "intent": "user.book"
+          },
+          {
+            "domain": "default",
+            "utterance": "another reservation pls",
+            "intent": "user.book"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "goodby": 1,
+              "for": 1,
+              "now": 1,
+              "bye": 1,
+              "take": 1,
+              "care": 1,
+              "okay": 1,
+              "see": 1,
+              "you": 1,
+              "later": 1,
+              "i": 1,
+              "must": 1,
+              "go": 1,
+              "can": 1,
+              "talk": 1,
+              "to": 1,
+              "a": 1,
+              "real": 1,
+              "human": 1,
+              "pleas": 1,
+              "connect": 1,
+              "me": 1,
+              "live": 1,
+              "person": 1,
+              "redirect": 1,
+              "an": 1,
+              "employe": 1,
+              "someon": 1,
+              "want": 1,
+              "enter": 1,
+              "the": 1,
+              "chat": 1,
+              "hate": 1,
+              "chatbot": 1,
+              "actual": 1,
+              "so": 1,
+              "could": 1,
+              "get": 1,
+              "out": 1,
+              "of": 1,
+              "my": 1,
+              "screen": 1,
+              "and": 1,
+              "made": 1,
+              "from": 1,
+              "flesh": 1,
+              "thank": 1,
+              "billion": 1,
+              "thx": 1,
+              "grate": 1,
+              "price": 1,
+              "what": 1,
+              "is": 1,
+              "how": 1,
+              "much": 1,
+              "it": 1,
+              "do": 1,
+              "have": 1,
+              "pay": 1,
+              "hello": 1,
+              "hi": 1,
+              "howdi": 1,
+              "hey": 1,
+              "greet": 1,
+              "there": 1,
+              "hola": 1,
+              "up": 1,
+              "had": 1,
+              "like": 1,
+              "book": 1,
+              "appoint": 1,
+              "doc": 1,
+              "doctor": 1,
+              "when": 1,
+              "avail": 1,
+              "some": 1,
+              "help": 1,
+              "with": 1,
+              "knee": 1,
+              "@doctor": 1,
+              "visit": 1,
+              "anoth": 1,
+              "reserv": 1,
+              "pls": 1
+            },
+            "intents": {
+              "greetings.bye": 1,
+              "user.redirect": 1,
+              "user.thanking": 1,
+              "user.pricing": 1,
+              "greetings.hello": 1,
+              "user.book": 1
+            },
+            "intentFeatures": {
+              "greetings.bye": {
+                "goodby": 1,
+                "for": 1,
+                "now": 1,
+                "bye": 1,
+                "take": 1,
+                "care": 1,
+                "okay": 1,
+                "see": 1,
+                "you": 1,
+                "later": 1,
+                "i": 1,
+                "must": 1,
+                "go": 1
+              },
+              "user.redirect": {
+                "can": 1,
+                "i": 1,
+                "talk": 1,
+                "to": 1,
+                "a": 1,
+                "real": 1,
+                "human": 1,
+                "pleas": 1,
+                "connect": 1,
+                "me": 1,
+                "live": 1,
+                "person": 1,
+                "redirect": 1,
+                "an": 1,
+                "employe": 1,
+                "someon": 1,
+                "want": 1,
+                "enter": 1,
+                "the": 1,
+                "chat": 1,
+                "hate": 1,
+                "chatbot": 1,
+                "actual": 1,
+                "so": 1,
+                "could": 1,
+                "you": 1,
+                "get": 1,
+                "out": 1,
+                "of": 1,
+                "my": 1,
+                "screen": 1,
+                "and": 1,
+                "made": 1,
+                "from": 1,
+                "flesh": 1,
+                "thank": 1
+              },
+              "user.thanking": {
+                "thank": 1,
+                "you": 1,
+                "a": 1,
+                "billion": 1,
+                "thx": 1,
+                "grate": 1
+              },
+              "user.pricing": {
+                "can": 1,
+                "i": 1,
+                "see": 1,
+                "the": 1,
+                "price": 1,
+                "what": 1,
+                "is": 1,
+                "how": 1,
+                "much": 1,
+                "it": 1,
+                "do": 1,
+                "have": 1,
+                "to": 1,
+                "pay": 1
+              },
+              "greetings.hello": {
+                "hello": 1,
+                "hi": 1,
+                "howdi": 1,
+                "hey": 1,
+                "greet": 1,
+                "there": 1,
+                "hola": 1,
+                "what": 1,
+                "is": 1,
+                "up": 1
+              },
+              "user.book": {
+                "i": 1,
+                "had": 1,
+                "like": 1,
+                "to": 1,
+                "book": 1,
+                "an": 1,
+                "appoint": 1,
+                "want": 1,
+                "see": 1,
+                "the": 1,
+                "doc": 1,
+                "can": 1,
+                "doctor": 1,
+                "when": 1,
+                "is": 1,
+                "avail": 1,
+                "some": 1,
+                "help": 1,
+                "with": 1,
+                "my": 1,
+                "knee": 1,
+                "@doctor": 1,
+                "visit": 1,
+                "anoth": 1,
+                "reserv": 1,
+                "pls": 1
+              }
+            },
+            "featuresToIntent": {
+              "goodby": [
+                "greetings.bye"
+              ],
+              "for": [
+                "greetings.bye"
+              ],
+              "now": [
+                "greetings.bye"
+              ],
+              "bye": [
+                "greetings.bye"
+              ],
+              "take": [
+                "greetings.bye"
+              ],
+              "care": [
+                "greetings.bye"
+              ],
+              "okay": [
+                "greetings.bye"
+              ],
+              "see": [
+                "greetings.bye",
+                "user.pricing",
+                "user.book"
+              ],
+              "you": [
+                "greetings.bye",
+                "user.redirect",
+                "user.thanking"
+              ],
+              "later": [
+                "greetings.bye"
+              ],
+              "i": [
+                "greetings.bye",
+                "user.redirect",
+                "user.pricing",
+                "user.book"
+              ],
+              "must": [
+                "greetings.bye"
+              ],
+              "go": [
+                "greetings.bye"
+              ],
+              "can": [
+                "user.redirect",
+                "user.pricing",
+                "user.book"
+              ],
+              "talk": [
+                "user.redirect"
+              ],
+              "to": [
+                "user.redirect",
+                "user.pricing",
+                "user.book"
+              ],
+              "a": [
+                "user.redirect",
+                "user.thanking"
+              ],
+              "real": [
+                "user.redirect"
+              ],
+              "human": [
+                "user.redirect"
+              ],
+              "pleas": [
+                "user.redirect"
+              ],
+              "connect": [
+                "user.redirect"
+              ],
+              "me": [
+                "user.redirect"
+              ],
+              "live": [
+                "user.redirect"
+              ],
+              "person": [
+                "user.redirect"
+              ],
+              "redirect": [
+                "user.redirect"
+              ],
+              "an": [
+                "user.redirect",
+                "user.book"
+              ],
+              "employe": [
+                "user.redirect"
+              ],
+              "someon": [
+                "user.redirect"
+              ],
+              "want": [
+                "user.redirect",
+                "user.book"
+              ],
+              "enter": [
+                "user.redirect"
+              ],
+              "the": [
+                "user.redirect",
+                "user.pricing",
+                "user.book"
+              ],
+              "chat": [
+                "user.redirect"
+              ],
+              "hate": [
+                "user.redirect"
+              ],
+              "chatbot": [
+                "user.redirect"
+              ],
+              "actual": [
+                "user.redirect"
+              ],
+              "so": [
+                "user.redirect"
+              ],
+              "could": [
+                "user.redirect"
+              ],
+              "get": [
+                "user.redirect"
+              ],
+              "out": [
+                "user.redirect"
+              ],
+              "of": [
+                "user.redirect"
+              ],
+              "my": [
+                "user.redirect",
+                "user.book"
+              ],
+              "screen": [
+                "user.redirect"
+              ],
+              "and": [
+                "user.redirect"
+              ],
+              "made": [
+                "user.redirect"
+              ],
+              "from": [
+                "user.redirect"
+              ],
+              "flesh": [
+                "user.redirect"
+              ],
+              "thank": [
+                "user.redirect",
+                "user.thanking"
+              ],
+              "billion": [
+                "user.thanking"
+              ],
+              "thx": [
+                "user.thanking"
+              ],
+              "grate": [
+                "user.thanking"
+              ],
+              "price": [
+                "user.pricing"
+              ],
+              "what": [
+                "user.pricing",
+                "greetings.hello"
+              ],
+              "is": [
+                "user.pricing",
+                "greetings.hello",
+                "user.book"
+              ],
+              "how": [
+                "user.pricing"
+              ],
+              "much": [
+                "user.pricing"
+              ],
+              "it": [
+                "user.pricing"
+              ],
+              "do": [
+                "user.pricing"
+              ],
+              "have": [
+                "user.pricing"
+              ],
+              "pay": [
+                "user.pricing"
+              ],
+              "hello": [
+                "greetings.hello"
+              ],
+              "hi": [
+                "greetings.hello"
+              ],
+              "howdi": [
+                "greetings.hello"
+              ],
+              "hey": [
+                "greetings.hello"
+              ],
+              "greet": [
+                "greetings.hello"
+              ],
+              "there": [
+                "greetings.hello"
+              ],
+              "hola": [
+                "greetings.hello"
+              ],
+              "up": [
+                "greetings.hello"
+              ],
+              "had": [
+                "user.book"
+              ],
+              "like": [
+                "user.book"
+              ],
+              "book": [
+                "user.book"
+              ],
+              "appoint": [
+                "user.book"
+              ],
+              "doc": [
+                "user.book"
+              ],
+              "doctor": [
+                "user.book"
+              ],
+              "when": [
+                "user.book"
+              ],
+              "avail": [
+                "user.book"
+              ],
+              "some": [
+                "user.book"
+              ],
+              "help": [
+                "user.book"
+              ],
+              "with": [
+                "user.book"
+              ],
+              "knee": [
+                "user.book"
+              ],
+              "@doctor": [
+                "user.book"
+              ],
+              "visit": [
+                "user.book"
+              ],
+              "anoth": [
+                "user.book"
+              ],
+              "reserv": [
+                "user.book"
+              ],
+              "pls": [
+                "user.book"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "goodby",
+                "for",
+                "now",
+                "bye",
+                "take",
+                "care",
+                "okay",
+                "see",
+                "you",
+                "later",
+                "i",
+                "must",
+                "go",
+                "can",
+                "talk",
+                "to",
+                "a",
+                "real",
+                "human",
+                "pleas",
+                "connect",
+                "me",
+                "live",
+                "person",
+                "redirect",
+                "an",
+                "employe",
+                "someon",
+                "want",
+                "enter",
+                "the",
+                "chat",
+                "hate",
+                "chatbot",
+                "actual",
+                "so",
+                "could",
+                "get",
+                "out",
+                "of",
+                "my",
+                "screen",
+                "and",
+                "made",
+                "from",
+                "flesh",
+                "thank",
+                "billion",
+                "thx",
+                "grate",
+                "price",
+                "what",
+                "is",
+                "how",
+                "much",
+                "it",
+                "do",
+                "have",
+                "pay",
+                "hello",
+                "hi",
+                "howdi",
+                "hey",
+                "greet",
+                "there",
+                "hola",
+                "up",
+                "had",
+                "like",
+                "book",
+                "appoint",
+                "doc",
+                "doctor",
+                "when",
+                "avail",
+                "some",
+                "help",
+                "with",
+                "knee",
+                "@doctor",
+                "visit",
+                "anoth",
+                "reserv",
+                "pls"
+              ],
+              "intents": [
+                "greetings.bye",
+                "user.redirect",
+                "user.thanking",
+                "user.pricing",
+                "greetings.hello",
+                "user.book"
+              ],
+              "perceptrons": [
+                [
+                  4.3164262771606445,
+                  4.427021026611328,
+                  4.427021026611328,
+                  4.474348068237305,
+                  4.3664140701293945,
+                  4.3664140701293945,
+                  4.528825283050537,
+                  2.0449142456054688,
+                  2.1398141384124756,
+                  4.528825283050537,
+                  1.79680597782135,
+                  5.725666522979736,
+                  5.725666522979736,
+                  -2.0490968227386475,
+                  -0.42543718218803406,
+                  -2.4356510639190674,
+                  -0.6155371069908142,
+                  -0.20078417658805847,
+                  -0.42543718218803406,
+                  -0.4898465871810913,
+                  -0.29836148023605347,
+                  -0.4898465871810913,
+                  -0.3421454131603241,
+                  -0.1252346634864807,
+                  -0.13009198009967804,
+                  -0.27151215076446533,
+                  -0.13009198009967804,
+                  -0.3321954905986786,
+                  -1.4860119819641113,
+                  -0.16381652653217316,
+                  -2.0824882984161377,
+                  -0.16381652653217316,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.4480813443660736,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -0.12224606424570084,
+                  -3.1728270053863525,
+                  -0.16133269667625427,
+                  -1.0711861848831177,
+                  -1.0537707805633545,
+                  -0.9431444406509399,
+                  -0.3569413423538208,
+                  -0.8639285564422607,
+                  -0.429781973361969,
+                  -0.429781973361969,
+                  -0.28015151619911194,
+                  -0.09972410649061203,
+                  -0.09972410649061203,
+                  -0.09972410649061203,
+                  -1.0351561307907104,
+                  -1.0337860584259033,
+                  -1.0322521924972534,
+                  -1.0841394662857056,
+                  -1.0298190116882324,
+                  -0.3777516186237335,
+                  -1.0274578332901,
+                  -0.2127436101436615,
+                  -0.08173158764839172,
+                  -0.08173158764839172,
+                  -0.08173158764839172,
+                  -0.08173158764839172,
+                  -0.10900523513555527,
+                  -0.7454025149345398,
+                  -0.0045867301523685455,
+                  -0.13554780185222626,
+                  -0.27727681398391724,
+                  -0.27727681398391724,
+                  -0.27727681398391724,
+                  -0.27727681398391724,
+                  -0.9552505612373352,
+                  0,
+                  -0.39409181475639343,
+                  -0.39409181475639343,
+                  -0.39409181475639343,
+                  1.035706597161323
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -3.22705078125,
+                  -0.011574981734156609,
+                  0,
+                  0.22877050936222076,
+                  -0.055811140686273575,
+                  -0.055811140686273575,
+                  2.251133918762207,
+                  3.045661449432373,
+                  3.736039638519287,
+                  0.9031510353088379,
+                  1.1913889646530151,
+                  3.045661449432373,
+                  2.726259231567383,
+                  0.5834728479385376,
+                  2.726259231567383,
+                  3.3865787982940674,
+                  0.34122905135154724,
+                  2.1427786350250244,
+                  0.9285007119178772,
+                  2.1427786350250244,
+                  2.0964224338531494,
+                  0.4391334354877472,
+                  3.045369863510132,
+                  0.521472156047821,
+                  3.045369863510132,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.06933513283729553,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  0.24226364493370056,
+                  -0.9015708565711975,
+                  -0.5641423463821411,
+                  -0.230014830827713,
+                  -0.22133803367614746,
+                  -0.698095440864563,
+                  -0.16685041785240173,
+                  -0.2773110270500183,
+                  -1.1053612232208252,
+                  -1.1053612232208252,
+                  -0.05789879336953163,
+                  -0.9931823015213013,
+                  -0.9931823015213013,
+                  -0.9931823015213013,
+                  -0.14544489979743958,
+                  -0.13993297517299652,
+                  -0.13462823629379272,
+                  -0.21338893473148346,
+                  -0.12519685924053192,
+                  -0.08238475024700165,
+                  -0.11707311868667603,
+                  -0.03892263025045395,
+                  -1.4751012325286865,
+                  -1.4751012325286865,
+                  -1.0416003465652466,
+                  -1.0416003465652466,
+                  -1.5821939706802368,
+                  -0.1611865609884262,
+                  0,
+                  0,
+                  -0.1655741184949875,
+                  -0.1655741184949875,
+                  -0.1655741184949875,
+                  -0.1655741184949875,
+                  -1.1539665460586548,
+                  -0.2790217101573944,
+                  0,
+                  0,
+                  0,
+                  -0.1171093495021968
+                ],
+                [
+                  -0.8491874933242798,
+                  -1.1143827438354492,
+                  -1.1143827438354492,
+                  -1.2026289701461792,
+                  -0.9374334216117859,
+                  -0.9374334216117859,
+                  -1.4298145771026611,
+                  -1.8003268241882324,
+                  0.8906183838844299,
+                  -1.4298145771026611,
+                  -2.095769166946411,
+                  -0.49063682556152344,
+                  -0.49063682556152344,
+                  -0.50600266456604,
+                  -0.20086775720119476,
+                  -1.487055778503418,
+                  0.10335046052932739,
+                  -0.20086775720119476,
+                  -0.20086775720119476,
+                  -0.8868809342384338,
+                  -0.8625121712684631,
+                  -0.8868809342384338,
+                  -0.2681930959224701,
+                  -0.2681930959224701,
+                  -0.012184388004243374,
+                  -0.10587649792432785,
+                  -0.012184388004243374,
+                  -0.5536168813705444,
+                  -0.17763476073741913,
+                  0,
+                  -0.7779614925384521,
+                  0,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.6987331509590149,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  -0.5536168813705444,
+                  10.56350040435791,
+                  0.6239182353019714,
+                  11.070345878601074,
+                  11.038047790527344,
+                  -0.5795280933380127,
+                  -0.7766329050064087,
+                  -1.8791968822479248,
+                  -0.6399678587913513,
+                  -0.6399678587913513,
+                  -0.4492902457714081,
+                  -0.13081887364387512,
+                  -0.13081887364387512,
+                  -0.13081887364387512,
+                  -3.058495044708252,
+                  -3.0485169887542725,
+                  -3.0380020141601562,
+                  -3.0431084632873535,
+                  -3.0185060501098633,
+                  -0.7551297545433044,
+                  -3.0057480335235596,
+                  -0.42784732580184937,
+                  -0.12141342461109161,
+                  -0.12141342461109161,
+                  -0.07613177597522736,
+                  -0.07613177597522736,
+                  -0.02262866497039795,
+                  -0.10588493943214417,
+                  -0.07885555922985077,
+                  -0.627454400062561,
+                  -0.1126720979809761,
+                  -0.1126720979809761,
+                  -0.1126720979809761,
+                  -0.1126720979809761,
+                  -0.5759312510490417,
+                  -0.021061033010482788,
+                  -1.0268958806991577,
+                  -1.0268958806991577,
+                  -1.0268958806991577,
+                  3.0866599542654387
+                ],
+                [
+                  -0.04584627225995064,
+                  -0.08517926186323166,
+                  -0.08517926186323166,
+                  -0.08658435940742493,
+                  -0.047238193452358246,
+                  -0.047238193452358246,
+                  -0.10358590632677078,
+                  0.4120136797428131,
+                  -0.13207150995731354,
+                  -0.10358590632677078,
+                  0.5868455171585083,
+                  -0.3012220561504364,
+                  -0.3012220561504364,
+                  1.4176620244979858,
+                  -0.48621490597724915,
+                  -0.9603914022445679,
+                  -0.28947627544403076,
+                  -0.23009313642978668,
+                  -0.48621490597724915,
+                  -0.07721522450447083,
+                  -0.04427320137619972,
+                  -0.07721522450447083,
+                  -0.283139705657959,
+                  -0.025959700345993042,
+                  -0.017634734511375427,
+                  -0.3252440094947815,
+                  -0.017634734511375427,
+                  -0.21750915050506592,
+                  -1.7742352485656738,
+                  -0.23203153908252716,
+                  2.73710298538208,
+                  -0.23203153908252716,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.11254280060529709,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.005333650391548872,
+                  -0.05193740501999855,
+                  -0.0029265512712299824,
+                  -0.02115539088845253,
+                  -0.020315395668148994,
+                  9.179841995239258,
+                  0.5479356646537781,
+                  1.9922420978546143,
+                  4.733287334442139,
+                  4.733287334442139,
+                  2.9535183906555176,
+                  1.778867244720459,
+                  1.778867244720459,
+                  1.778867244720459,
+                  -0.3605535328388214,
+                  -0.3473833501338959,
+                  -0.33468717336654663,
+                  -0.5020618438720703,
+                  -0.3122427761554718,
+                  -0.17938348650932312,
+                  -0.29299110174179077,
+                  -2.7485504150390625,
+                  -0.4390072822570801,
+                  -0.4390072822570801,
+                  -0.2829470932483673,
+                  -0.2829470932483673,
+                  -1.2096962928771973,
+                  -4.947704315185547,
+                  -0.8827846646308899,
+                  -1.4789177179336548,
+                  -0.093103788793087,
+                  -0.093103788793087,
+                  -0.093103788793087,
+                  -0.093103788793087,
+                  -0.78003990650177,
+                  -0.09271974116563797,
+                  -0.053724952042102814,
+                  -0.053724952042102814,
+                  -0.053724952042102814,
+                  -0.14455610556482124
+                ],
+                [
+                  -1.744153380393982,
+                  -2.407313585281372,
+                  -2.407313585281372,
+                  -2.6282765865325928,
+                  -1.965113878250122,
+                  -1.965113878250122,
+                  -1.1989004611968994,
+                  -1.972009539604187,
+                  -2.187943935394287,
+                  -1.1989004611968994,
+                  -3.570075035095215,
+                  -1.4920799732208252,
+                  -1.4920799732208252,
+                  -0.478809118270874,
+                  -0.12836594879627228,
+                  -2.1884164810180664,
+                  -1.2924795150756836,
+                  -0.019628625363111496,
+                  -0.12836594879627228,
+                  -1.0491406917572021,
+                  -0.39776572585105896,
+                  -1.0491406917572021,
+                  -0.39776572585105896,
+                  -0.39776572585105896,
+                  -0.6064837574958801,
+                  -1.056601881980896,
+                  -0.6064837574958801,
+                  -0.10076814889907837,
+                  -0.9621941447257996,
+                  0,
+                  -4.7161335945129395,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.5305553078651428,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -6.4164042472839355,
+                  -0.8198850154876709,
+                  -6.35410737991333,
+                  -6.326117038726807,
+                  -3.260902166366577,
+                  2.98534893989563,
+                  -1.482155203819275,
+                  -1.6679743528366089,
+                  -1.6679743528366089,
+                  -1.6679743528366089,
+                  0,
+                  0,
+                  0,
+                  7.757363796234131,
+                  7.760693550109863,
+                  7.744595527648926,
+                  7.362558364868164,
+                  7.696908473968506,
+                  0.6457751989364624,
+                  7.69197416305542,
+                  6.246753692626953,
+                  -0.562152087688446,
+                  -0.562152087688446,
+                  -0.37598034739494324,
+                  -0.37598034739494324,
+                  -0.2265014499425888,
+                  -1.038286566734314,
+                  -0.6631399989128113,
+                  -2.798093557357788,
+                  -0.5305553078651428,
+                  -0.5305553078651428,
+                  -0.5305553078651428,
+                  -0.5305553078651428,
+                  -2.2502920627593994,
+                  -0.11239573359489441,
+                  -2.1879868507385254,
+                  -2.1879868507385254,
+                  -2.1879868507385254,
+                  6.51305627617852
+                ],
+                [
+                  -0.4093898832798004,
+                  -0.7216736674308777,
+                  -0.7216736674308777,
+                  -0.7861555814743042,
+                  -0.4814331531524658,
+                  -0.4814331531524658,
+                  -1.3238517045974731,
+                  3.683821439743042,
+                  -1.6273219585418701,
+                  -1.3238517045974731,
+                  2.3865959644317627,
+                  -1.6282697916030884,
+                  -1.6282697916030884,
+                  -0.32292577624320984,
+                  -1.6952540874481201,
+                  -0.2511233985424042,
+                  -1.1125613451004028,
+                  -0.6999614238739014,
+                  -1.6952540874481201,
+                  -1.079301118850708,
+                  -0.35856854915618896,
+                  -1.079301118850708,
+                  -2.9390695095062256,
+                  -0.154206782579422,
+                  -0.5280958414077759,
+                  1.6634292602539062,
+                  -0.5280958414077759,
+                  -0.9434108138084412,
+                  2.4663970470428467,
+                  -2.6330652236938477,
+                  1.0246541500091553,
+                  -2.6330652236938477,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  1.5708149671554565,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.12725837528705597,
+                  -0.7336738705635071,
+                  -0.00410884665325284,
+                  -0.6043171882629395,
+                  -0.5936285257339478,
+                  -7.007377624511719,
+                  -1.9092508554458618,
+                  2.4825942516326904,
+                  -1.1789054870605469,
+                  -1.1789054870605469,
+                  -0.6576097011566162,
+                  -0.42561256885528564,
+                  -0.42561256885528564,
+                  -0.42561256885528564,
+                  -0.5117484331130981,
+                  -0.5104315280914307,
+                  -0.5090333223342896,
+                  -0.5117672085762024,
+                  -0.5067805051803589,
+                  -0.16725976765155792,
+                  -0.5049681663513184,
+                  -1.0579321384429932,
+                  2.7025551795959473,
+                  2.7025551795959473,
+                  2.2800943851470947,
+                  2.2800943851470947,
+                  4.249851703643799,
+                  6.617372989654541,
+                  -1.1202502250671387,
+                  5.064153671264648,
+                  1.825331687927246,
+                  1.825331687927246,
+                  1.825331687927246,
+                  1.825331687927246,
+                  5.814520359039307,
+                  0.4215136766433716,
+                  4.583572864532471,
+                  4.583572864532471,
+                  4.583572864532471,
+                  0.5346890824098535
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "goodbye for now"
+      ],
+      [
+        "en",
+        "bye bye take care"
+      ],
+      [
+        "en",
+        "okay see you later"
+      ],
+      [
+        "en",
+        "bye for now"
+      ],
+      [
+        "en",
+        "i must go"
+      ],
+      [
+        "en",
+        "Can I talk to a real human?"
+      ],
+      [
+        "en",
+        "Please connect me to a living person"
+      ],
+      [
+        "en",
+        "Please redirect me to an employee"
+      ],
+      [
+        "en",
+        "Can I talk to someone human?"
+      ],
+      [
+        "en",
+        "I want to enter the live chat"
+      ],
+      [
+        "en",
+        "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+      ],
+      [
+        "en",
+        "thanks"
+      ],
+      [
+        "en",
+        "thank you"
+      ],
+      [
+        "en",
+        "thanks a billion"
+      ],
+      [
+        "en",
+        "thx"
+      ],
+      [
+        "en",
+        "grateful"
+      ],
+      [
+        "en",
+        "Can I see the prices?"
+      ],
+      [
+        "en",
+        "What's the pricing?"
+      ],
+      [
+        "en",
+        "How much is it?"
+      ],
+      [
+        "en",
+        "How much do I have to pay?"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "hey there"
+      ],
+      [
+        "en",
+        "hola"
+      ],
+      [
+        "en",
+        "What's up?"
+      ],
+      [
+        "en",
+        "I'd like to book an appointment"
+      ],
+      [
+        "en",
+        "I wanna see the doc"
+      ],
+      [
+        "en",
+        "Can I see the doctor?"
+      ],
+      [
+        "en",
+        "When is the doctor available?"
+      ],
+      [
+        "en",
+        "I want some help with my knee"
+      ],
+      [
+        "en",
+        "I want to see @doctor"
+      ],
+      [
+        "en",
+        "I'd like to visit @doctor"
+      ],
+      [
+        "en",
+        "Is @doctor available?"
+      ],
+      [
+        "en",
+        "another reservation pls"
+      ],
+      [
+        "en",
+        "goodbye for now"
+      ],
+      [
+        "en",
+        "bye bye take care"
+      ],
+      [
+        "en",
+        "okay see you later"
+      ],
+      [
+        "en",
+        "bye for now"
+      ],
+      [
+        "en",
+        "i must go"
+      ],
+      [
+        "en",
+        "Can I talk to a real human?"
+      ],
+      [
+        "en",
+        "Please connect me to a living person"
+      ],
+      [
+        "en",
+        "Please redirect me to an employee"
+      ],
+      [
+        "en",
+        "Can I talk to someone human?"
+      ],
+      [
+        "en",
+        "I want to enter the live chat"
+      ],
+      [
+        "en",
+        "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+      ],
+      [
+        "en",
+        "thanks"
+      ],
+      [
+        "en",
+        "thank you"
+      ],
+      [
+        "en",
+        "thanks a billion"
+      ],
+      [
+        "en",
+        "thx"
+      ],
+      [
+        "en",
+        "grateful"
+      ],
+      [
+        "en",
+        "Can I see the prices?"
+      ],
+      [
+        "en",
+        "What's the pricing?"
+      ],
+      [
+        "en",
+        "How much is it?"
+      ],
+      [
+        "en",
+        "How much do I have to pay?"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "hey there"
+      ],
+      [
+        "en",
+        "hola"
+      ],
+      [
+        "en",
+        "What's up?"
+      ],
+      [
+        "en",
+        "I'd like to book an appointment"
+      ],
+      [
+        "en",
+        "I wanna see the doc"
+      ],
+      [
+        "en",
+        "Can I see the doctor?"
+      ],
+      [
+        "en",
+        "When is the doctor available?"
+      ],
+      [
+        "en",
+        "I want some help with my knee"
+      ],
+      [
+        "en",
+        "I want to see @doctor"
+      ],
+      [
+        "en",
+        "I'd like to visit @doctor"
+      ],
+      [
+        "en",
+        "Is @doctor available?"
+      ],
+      [
+        "en",
+        "another reservation pls"
+      ],
+      [
+        "en",
+        "goodbye for now"
+      ],
+      [
+        "en",
+        "bye bye take care"
+      ],
+      [
+        "en",
+        "okay see you later"
+      ],
+      [
+        "en",
+        "bye for now"
+      ],
+      [
+        "en",
+        "i must go"
+      ],
+      [
+        "en",
+        "Can I talk to a real human?"
+      ],
+      [
+        "en",
+        "Please connect me to a living person"
+      ],
+      [
+        "en",
+        "Please redirect me to an employee"
+      ],
+      [
+        "en",
+        "Can I talk to someone human?"
+      ],
+      [
+        "en",
+        "I want to enter the live chat"
+      ],
+      [
+        "en",
+        "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+      ],
+      [
+        "en",
+        "thanks"
+      ],
+      [
+        "en",
+        "thank you"
+      ],
+      [
+        "en",
+        "thanks a billion"
+      ],
+      [
+        "en",
+        "thx"
+      ],
+      [
+        "en",
+        "grateful"
+      ],
+      [
+        "en",
+        "Can I see the prices?"
+      ],
+      [
+        "en",
+        "What's the pricing?"
+      ],
+      [
+        "en",
+        "How much is it?"
+      ],
+      [
+        "en",
+        "How much do I have to pay?"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "hey there"
+      ],
+      [
+        "en",
+        "hola"
+      ],
+      [
+        "en",
+        "What's up?"
+      ],
+      [
+        "en",
+        "I'd like to book an appointment"
+      ],
+      [
+        "en",
+        "I wanna see the doc"
+      ],
+      [
+        "en",
+        "Can I see the doctor?"
+      ],
+      [
+        "en",
+        "When is the doctor available?"
+      ],
+      [
+        "en",
+        "I want some help with my knee"
+      ],
+      [
+        "en",
+        "I want to see @doctor"
+      ],
+      [
+        "en",
+        "I'd like to visit @doctor"
+      ],
+      [
+        "en",
+        "Is @doctor available?"
+      ],
+      [
+        "en",
+        "another reservation pls"
+      ],
+      [
+        "en",
+        "goodbye for now"
+      ],
+      [
+        "en",
+        "bye bye take care"
+      ],
+      [
+        "en",
+        "okay see you later"
+      ],
+      [
+        "en",
+        "bye for now"
+      ],
+      [
+        "en",
+        "i must go"
+      ],
+      [
+        "en",
+        "Can I talk to a real human?"
+      ],
+      [
+        "en",
+        "Please connect me to a living person"
+      ],
+      [
+        "en",
+        "Please redirect me to an employee"
+      ],
+      [
+        "en",
+        "Can I talk to someone human?"
+      ],
+      [
+        "en",
+        "I want to enter the live chat"
+      ],
+      [
+        "en",
+        "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+      ],
+      [
+        "en",
+        "thanks"
+      ],
+      [
+        "en",
+        "thank you"
+      ],
+      [
+        "en",
+        "thanks a billion"
+      ],
+      [
+        "en",
+        "thx"
+      ],
+      [
+        "en",
+        "grateful"
+      ],
+      [
+        "en",
+        "Can I see the prices?"
+      ],
+      [
+        "en",
+        "What's the pricing?"
+      ],
+      [
+        "en",
+        "How much is it?"
+      ],
+      [
+        "en",
+        "How much do I have to pay?"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "hey there"
+      ],
+      [
+        "en",
+        "hola"
+      ],
+      [
+        "en",
+        "What's up?"
+      ],
+      [
+        "en",
+        "I'd like to book an appointment"
+      ],
+      [
+        "en",
+        "I wanna see the doc"
+      ],
+      [
+        "en",
+        "Can I see the doctor?"
+      ],
+      [
+        "en",
+        "When is the doctor available?"
+      ],
+      [
+        "en",
+        "I want some help with my knee"
+      ],
+      [
+        "en",
+        "I want to see @doctor"
+      ],
+      [
+        "en",
+        "I'd like to visit @doctor"
+      ],
+      [
+        "en",
+        "Is @doctor available?"
+      ],
+      [
+        "en",
+        "another reservation pls"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {
+      "en": {
+        "doctors": {
+          "name": "doctors",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "Andre Boston",
+              "texts": [
+                "Andre Boston"
+              ]
+            },
+            {
+              "option": "Jolie Nice",
+              "texts": [
+                "Jolie Nice"
+              ]
+            },
+            {
+              "option": "John Adam",
+              "texts": [
+                "John Adam"
+              ]
+            },
+            {
+              "option": "Anna De Armast",
+              "texts": [
+                "Anna De Armast"
+              ]
+            },
+            {
+              "option": "Christina Eve",
+              "texts": [
+                "Christina Eve"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "en": {
+        "greetings.bye": [
+          {
+            "answer": "Till next time"
+          },
+          {
+            "answer": "see you soon!"
+          }
+        ],
+        "user.thanking": [
+          {
+            "answer": "No problem!"
+          },
+          {
+            "answer": "Sure!"
+          }
+        ],
+        "user.pricing": [
+          {
+            "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"
+          }
+        ],
+        "greetings.hello": [
+          {
+            "answer": "Hey there!"
+          },
+          {
+            "answer": "Greetings!"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
