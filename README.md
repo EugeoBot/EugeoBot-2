@@ -2,48 +2,44 @@
 
 ## Setting up development environement
 
-run :
+### For the client side
 
 ```sh
- npm install
+ cd cient
 ```
 
-to install dependencies
-
-create your .env file like in .env.example file
-
-Make sure to create a mysql database before continuing
-
-run :
+to get in the client folder
 
 ```sh
- npx prisma migrate
+npm install
 ```
 
-to create database tables from prisma schema
-
-run :
+to install the dependencies
 
 ```sh
- npx prisma db seed
+npm run dev
 ```
 
-to seed database from the seed.ts file
+to start the dev server on port 5173
 
-run :
+### For the server side
 
 ```sh
- node train.js
+ cd server
 ```
 
-to run the script that train the bot
-
-run :
+to get in the server folder
 
 ```sh
- node index.js
+npm install
 ```
 
-to start the bot
+to install the dependencies
+
+```sh
+npm start
+```
+
+this will train the bot and turn the server to listen on port 3000
 
 ### Enjoy Our bot made by Zakaria BAQASSE & Kaoutar SOUGRATI 😉
