@@ -4,8 +4,8 @@ const http = require("http");
 const { Server } = require("socket.io");
 const { trainChatBotIA, generateResponseAI } = require("./chatbot");
 const cors = require("cors");
-const server = http.createServer(app);
 app.use(cors());
+const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
@@ -21,11 +21,9 @@ io.on("connection", (socket) => {
     "welcome",
     "Welcome 😇! I'm Eugeo your medical Assisstant. How can I help You"
   );
-  io.on("message", async (data) => {
-    console.log("Got A message here");
-    console.log(data);
-    let response = await generateResponseAI(data.msg);
-    io.emit(
+  socket.on("message", async (data) => {
+    let response = await generateResponseAI(data);
+    socket.emit(
       "response",
       response.answer !== undefined
         ? response.answer
@@ -33,6 +31,8 @@ io.on("connection", (socket) => {
     );
   });
 });
+
+process.on("warning", (e) => console.log(e.stack));
 
 server.listen(3000, () => {
   console.log("listening on *:3000");

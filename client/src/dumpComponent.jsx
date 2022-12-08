@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { CiPaperplane } from "react-icons/ci";
 import { IconContext } from "react-icons";
-import io from "socket.io-client";
+import ScrollToBottom from "react-scroll-to-bottom";
+
 import { v4 as uuid } from "uuid";
 import { format } from "date-fns";
 
 const bot = { id: "0", name: "bot" };
-const socket = io("http://localhost:3000", { transports: ["websocket"] });
-socket.connect(true);
 
 function IncomingMessage({ message }) {
   return (
@@ -27,32 +26,32 @@ function OutgoingMessage({ message }) {
   );
 }
 
-function ChatBotRobot(props) {
-  const [userMessage, setUserMessage] = useState("");
+function ChatBotRobot({ socket }) {
+  const [usermessage, setUsermessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [user, setUser] = useState(undefined);
+
   const sendMessage = async (message) => {
-    socket.emit("message", { message });
-    useEffect(() => {
-      socket.on("response", (data) => {
-        setMessages([
-          ...messages,
-          {
-            author: bot,
-            timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
-            text: data,
-          },
-        ]);
-      });
-    }, [socket]);
+    await socket.emit("message", message);
+    setMessages((list) => [
+      ...list,
+      {
+        id: uuid(),
+        author: user,
+        timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
+        text: usermessage,
+      },
+    ]);
   };
 
   useEffect(() => {
+    console.log("called useeffect welcome");
     setUser({ name: "user", id: uuid() });
     socket.on("welcome", (data) => {
       setMessages([
         ...messages,
         {
+          id: uuid(),
           author: bot,
           timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
           text: data,
@@ -61,45 +60,53 @@ function ChatBotRobot(props) {
     });
   }, []);
 
+  useEffect(() => {
+    console.log("called use effect response");
+    socket.on("response", (data) => {
+      setMessages((list) => [
+        ...list,
+        {
+          id: uuid(),
+          author: bot,
+          timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
+          text: data,
+        },
+      ]);
+    });
+  }, [socket]);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    setMessages([
-      ...messages,
-      {
-        author: user,
-        timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
-        text: userMessage,
-      },
-    ]);
+    await sendMessage(usermessage);
 
-    await sendMessage(userMessage);
-
-    setUserMessage("");
+    setUsermessage("");
   };
 
-  const displayedMessages = messages.map((message, index) => {
+  const displayedMessages = messages.map((message) => {
     if (message.author === user) {
-      return <OutgoingMessage key={index} message={message} />;
-    } else {
-      return <IncomingMessage key={index} message={message} />;
+      return <OutgoingMessage key={message.id} message={message} />;
+    } else if (message.author === bot) {
+      return <IncomingMessage key={message.id} message={message} />;
     }
   });
 
   return (
     <>
       <div className="chat-box">
-        <div className="chat-box-body">{displayedMessages}</div>
+        <ScrollToBottom className="chat-box-body">
+          {displayedMessages}
+        </ScrollToBottom>
         <div className="chat-box-footer">
-          <form method="POST" onSubmit={(event) => handleSubmit(event)}>
+          <form onSubmit={(event) => handleSubmit(event)}>
             <input
               placeholder="Enter Your Message"
               type="text"
               name="message"
-              value={userMessage}
-              onChange={(e) => setUserMessage(e.target.value)}
+              value={usermessage}
+              onChange={(e) => setUsermessage(e.target.value)}
             />
-            <button id="addExtra">
+            <button id="addExtra" type="submit">
               <IconContext.Provider
                 value={{ color: "#011936ff", size: "2rem" }}
               >
