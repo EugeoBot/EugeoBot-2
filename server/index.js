@@ -19,7 +19,7 @@ io.on("connection", (socket) => {
   console.log(`a user connected ${socket.id}`);
   socket.emit(
     "welcome",
-    "Welcome 😇! I'm Eugeo your medical Assisstant. How can I help You"
+    "Welcome 😇! I'm Eugeo your medical Assisstant. How can I help You?"
   );
   socket.on("message", async (data) => {
     let response = await generateResponseAI(data);
