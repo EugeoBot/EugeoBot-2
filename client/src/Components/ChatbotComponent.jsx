@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { CiPaperplane } from "react-icons/ci";
 import { IconContext } from "react-icons";
 import ScrollToBottom from "react-scroll-to-bottom";
-
+import "./styles/ChatBotStyles.css";
 import { v4 as uuid } from "uuid";
 import { format } from "date-fns";
 
@@ -26,7 +26,7 @@ function OutgoingMessage({ message }) {
   );
 }
 
-function ChatBotRobot({ socket }) {
+function ChatBotRobot({ socket, open }) {
   const [usermessage, setUsermessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [user, setUser] = useState(undefined);
@@ -93,7 +93,9 @@ function ChatBotRobot({ socket }) {
 
   return (
     <>
-      <div className="chat-box">
+      <div
+        className={open ? "chat-box chat-box-open" : "chat-box chat-box-closed"}
+      >
         <ScrollToBottom className="chat-box-body">
           {displayedMessages}
         </ScrollToBottom>
@@ -108,7 +110,7 @@ function ChatBotRobot({ socket }) {
             />
             <button id="addExtra" type="submit">
               <IconContext.Provider
-                value={{ color: "#011936ff", size: "2rem" }}
+                value={{ color: "#011936ff", size: "3rem" }}
               >
                 <CiPaperplane />
               </IconContext.Provider>
