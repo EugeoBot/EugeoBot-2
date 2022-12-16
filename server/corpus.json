@@ -17,6 +17,206 @@
       ]
     },
     {
+      "intent": "greetings.howu",
+      "utterances": [
+        "how are you",
+        "how are u",
+        "how are you doing",
+        "you good",
+        "are you okay"
+      ],
+      "answers": [
+        { "answer": "i'm having a wonderful time!" },
+        { "answer": "i'm great!" },
+        { "answer": "good thanks!"}
+      ]
+    },
+    {
+      "intent": "greetings.whatUdoing",
+      "utterances": [
+        "what u doing",
+        "whatcha doing",
+        "are you free"
+      ],
+      "answers": [
+        { "answer": "i'm waiting for you to ask" },
+        { "answer": "waiting to answer your questions" },
+        { "answer": "getting ready to help you"}
+      ]
+    },
+    {
+      "intent": "greetings.howOld",
+      "utterances": [
+        "how old are you"
+      ],
+      "answers": [
+        { "answer": "today years old" }
+      ]
+    },
+    {
+      "intent": "greetings.name",
+      "utterances": [
+        "what's your name"
+      ],
+      "answers": [
+        { "answer": "you can call me eugeo" }
+      ]
+    },
+    {
+      "intent": "greetings.whoRyou",
+      "utterances": [
+        "who are you"
+      ],
+      "answers": [
+        { "answer": "i'm the best medical assistant in the world" }
+      ]
+    },
+    {
+      "intent": "greetings.ask",
+      "utterances": [
+        "can i ask",
+        "i have a question",
+        "i have a problem"
+      ],
+      "answers": [
+        { "answer": "tell me" },
+        { "answer": "what's up ?" },
+        { "answer": "feel free to ask"}
+      ]
+    },
+    {
+      "intent": "autism.symptoms",
+      "utterances": [
+        "symptoms of autism"
+      ],
+      "answers": [
+        { "answer": "Delayed language skills\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected" }
+      ]
+    },
+    {
+      "intent": "cancer.symptoms",
+      "utterances": [
+        "symptoms of cancer"
+      ],
+      "answers": [
+        { "answer": "symptoms of cancer : Breast changes Bladder changes Bleeding or bruising Cough Eating problems Fever or night sweats Fatigue" }
+      ]
+    },
+    {
+      "intent": "depression.symptoms",
+      "utterances": [
+        "symptoms of depression"
+      ],
+      "answers": [
+        { "answer": "symptoms of depression: Sleep disturbances Tiredness and lack of energy Reduced appetite and weight loss or increased cravings for food and weight gain" }
+      ]
+    },
+    {
+      "intent": "Conjunctivitis.symptoms",
+      "utterances": [
+        "symptoms of Conjunctivitis "
+      ],
+      "answers": [
+        { "answer": "symptoms of Conjunctivitis: Redness itchiness a feeling of irritation tearing" }
+      ]
+    },
+    {
+      "intent": "stomachflu.symptoms",
+      "utterances": [
+        "symptoms of stomach flu "
+      ],
+      "answers": [
+        { "answer": "symptoms of stomach flu: diarrhoea itchiness stomach pain fever headache" }
+      ]
+    },
+    {
+      "intent": "lunginfection.symptoms",
+      "utterances": [
+        "symptoms of lung infection"
+      ],
+      "answers": [
+        { "answer": "symptoms of lung infection: coughing sore throat chest pain headache runny nose" }
+      ]
+    },
+    {
+      "intent": "Alzheimer.symptoms",
+      "utterances": [
+        "symptoms of Alzheimer's "
+      ],
+      "answers": [
+        { "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety" }
+      ]
+    },
+    {
+      "intent": "asthma.symptoms",
+      "utterances": [
+        "symptoms of asthma "
+      ],
+      "answers": [
+        { "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest" }
+      ]
+    },
+    {
+      "intent": "fever.heal",
+      "utterances": [
+        "fever without medicines"
+      ],
+      "answers": [
+        { "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing" }
+      ]
+    },
+    {
+      "intent": "cold.heal",
+      "utterances": [
+        "cold without medicines"
+      ],
+      "answers": [
+        { "answer": "Stay hydrated Rest Add moisture to the air Try honey" }
+      ]
+    },
+    {
+      "intent": "depression.heal",
+      "utterances": [
+        "i think i have depression",
+        "i'm mentally sick"
+      ],
+      "answers": [
+        { "answer": "don't be! you're strong enough" },
+        { "answer": "everything is gonna be okay! cheer up" },
+        { "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"}
+      ]
+    },
+    {
+      "intent": "health.advice",
+      "utterances": [
+        "health advice"
+      ],
+      "answers": [
+        { "answer": "don't code" },
+        { "answer": "stay hydrated" },
+        { "answer": "practice sports" },
+        { "answer": "eat healthy"}
+      ]
+    },
+    {
+      "intent": "weigthLoss.tips",
+      "utterances": [
+        "weigth loss"
+      ],
+      "answers": [
+        { "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports" }
+      ]
+    },
+    {
+      "intent": "fitness.ex",
+      "utterances": [
+        "what kind of sports do i play for weight loss?"
+      ],
+      "answers": [
+        { "answer": "cardio running stretching walking swimming and any other activity that includes efforts" }
+      ]
+    },
+    {
       "intent": "user.redirect",
       "utterances": [
         "Can I talk to a real human?",
@@ -59,7 +259,7 @@
       "utterances": [
         "hello",
         "hi",
-        "howdy",
+        "yo",
         "hey",
         "greetings",
         "hey there",
