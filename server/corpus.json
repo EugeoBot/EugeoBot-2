@@ -18,6 +18,27 @@
       ]
     },
     {
+      "intent": "greeting.french",
+      "utterances": [
+        "u speak french?",
+        "do u speak french?",
+        "do you speak french?",
+        "you speak french?",
+        "u speak english?",
+        "do u speak english?",
+        "do you speak english?",
+        "you speak english?",
+        "u speak chinese?",
+        "do u speak chinese?",
+        "do you speak chines?",
+        "you speak chinese?"
+      ],
+      "answers": [
+        { "answer": "yes i do!"},
+        { "answer":"yep! i'm really smart"}
+      ]
+    },
+    {
       "intent": "greetings.howu",
       "utterances": [
         "how are you",

@@ -17,6 +17,18 @@
         ]
       },
       {
+        "intent": "bonjour.tpfr",
+        "utterances": [
+          "tu parle français?",
+          "tu parle en français?",
+          "est ce que tu parle en français"
+        ],
+        "answers": [
+          { "answer": "oui bien sure!"},
+          { "answer":"ouais!"}
+        ]
+      },
+      {
         "intent": "frbye.byye",
         "utterances": [
           "ciao",

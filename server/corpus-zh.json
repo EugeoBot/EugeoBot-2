@@ -12,6 +12,18 @@
         ]
       },
       {
+        "intent": "shuo.shuoshuo",
+        "utterances": [
+          "你会说中文吗？",
+          "你会说法语吗?",
+          "你会说英语吗？"
+        ],
+        "answers": [
+          { "answer": "我能"},
+          { "answer": "我会的"}
+        ]
+      },
+      {
         "intent": "nihaoma.nhm",
         "utterances": [
           "你好吗"
