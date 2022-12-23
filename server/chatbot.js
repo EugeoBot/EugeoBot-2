@@ -1,12 +1,14 @@
 const { NlpManager } = require("node-nlp");
 const { User } = require("./user");
 
-const manager = new NlpManager({ languages: ["en"] });
+const manager = new NlpManager({ languages: ["en","fr","zh"] });
 // 1 - Train the IA
 async function trainChatBotIA() {
   return new Promise(async (resolve, reject) => {
      // Train also the NLG
     manager.addCorpus("corpus.json");
+    manager.addCorpus("corpus-fr.json");
+    manager.addCorpus("corpus-zh.json");
     await manager.train();
     manager.save()
     console.log("AI has been trainded");
@@ -16,9 +18,11 @@ async function trainChatBotIA() {
 async function generateResponseAI(qsm) {
   // Train and save the mode
   return new Promise(async (resolve, reject) => {
-    response = await manager.process("en", qsm);
-    response = await new User(manager).onIntent(response);
-    resolve(response);
+    manager.process("en", qsm).then(resolve);
+    manager.process("fr", qsm).then(resolve);
+    manager.process("zh", qsm).then(resolve);
+    //response = await new User(manager).onIntent(response);
+    //resolve(response);
   });
 }
 

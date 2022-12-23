@@ -1,0 +1,23 @@
+{
+    "name": "Corpus 50",
+    "locale": "es-ES",
+    "data": [
+      {
+        "intent": "support.app_name",
+        "utterances": [
+          "cuál es el nombre de tu aplicación",
+          "cómo se llama tu app",
+          "dime el nombre de tu app",
+          "nombre de tu aplicación",
+          "me gustaría saber el nombre de tu app"
+        ],
+        "answers": [
+          { "answer": "nombres de tus apps"},
+          { "answer":"dime los nombres de tus aplicaciones"},
+          { "answer":"¿Cómo se llama tu aplicación?"},
+          { "answer":"Nombre de tu app"},
+          { "answer":"el nombre de tu aplicación?"}
+        ]
+      }
+    ]
+  }

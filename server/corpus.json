@@ -9,7 +9,8 @@
         "bye bye take care",
         "okay see you later",
         "bye for now",
-        "i must go"
+        "i must go",
+        "bye"
       ],
       "answers": [
         {
@@ -66,6 +67,7 @@
         "how old are you"
       ],
       "answers": [
+        { "answer": "3 months old" }
         {
           "answer": "today years old"
         }
@@ -115,9 +117,11 @@
     {
       "intent": "autism.symptoms",
       "utterances": [
-        "symptoms of autism"
+        "what are symptoms of autism"
       ],
       "answers": [
+        { "answer": "Delayed language skill\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected" }
+
         {
           "answer": "Delayed language skills\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected"
         }
@@ -126,7 +130,7 @@
     {
       "intent": "cancer.symptoms",
       "utterances": [
-        "symptoms of cancer"
+        "what are symptoms of cancer"
       ],
       "answers": [
         {
@@ -137,7 +141,7 @@
     {
       "intent": "depression.symptoms",
       "utterances": [
-        "symptoms of depression"
+        "what are symptoms of depression"
       ],
       "answers": [
         {
@@ -148,7 +152,7 @@
     {
       "intent": "Conjunctivitis.symptoms",
       "utterances": [
-        "symptoms of Conjunctivitis "
+        "what are symptoms of Conjunctivitis "
       ],
       "answers": [
         {
@@ -159,7 +163,7 @@
     {
       "intent": "stomachflu.symptoms",
       "utterances": [
-        "symptoms of stomach flu "
+        "what are symptoms of stomach flu "
       ],
       "answers": [
         {
@@ -170,7 +174,7 @@
     {
       "intent": "lunginfection.symptoms",
       "utterances": [
-        "symptoms of lung infection"
+        "what are symptoms of lung infection"
       ],
       "answers": [
         {
@@ -181,7 +185,7 @@
     {
       "intent": "Alzheimer.symptoms",
       "utterances": [
-        "symptoms of Alzheimer's "
+        "what are symptoms of Alzheimer's "
       ],
       "answers": [
         {
@@ -192,7 +196,7 @@
     {
       "intent": "asthma.symptoms",
       "utterances": [
-        "symptoms of asthma "
+        "what are symptoms of asthma "
       ],
       "answers": [
         {
@@ -203,7 +207,8 @@
     {
       "intent": "fever.heal",
       "utterances": [
-        "fever without medicines"
+        "how to heal fever without medicines",
+        "heal fever without medicines"
       ],
       "answers": [
         {
@@ -214,7 +219,8 @@
     {
       "intent": "cold.heal",
       "utterances": [
-        "cold without medicines"
+        "how to heal cold without medicines",
+        "heal cold without medicines"
       ],
       "answers": [
         {
@@ -243,7 +249,9 @@
     {
       "intent": "health.advice",
       "utterances": [
-        "health advice"
+        "give me some health care advice",
+        "health care advice",
+        "any health care advide?"
       ],
       "answers": [
         {
@@ -263,7 +271,9 @@
     {
       "intent": "weigthLoss.tips",
       "utterances": [
-        "weigth loss"
+        "weigth loss",
+        "tips for weight loss",
+        "give me some tips for weight loss"
       ],
       "answers": [
         {

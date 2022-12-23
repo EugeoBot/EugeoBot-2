@@ -23,6 +23,7 @@ io.on("connection", (socket) => {
   );
   socket.on("message", async (data) => {
     let response = await generateResponseAI(data);
+    
     socket.emit(
       "response",
       response.answer !== undefined

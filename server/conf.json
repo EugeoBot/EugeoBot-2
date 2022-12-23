@@ -5,7 +5,9 @@
     "forceNER": true,
     "nlp": {
       "corpora": [
-        "./corpus.json"
+        "./corpus.json",
+        "./corpus-fr.json",
+        "./corpus-zh.json"
       ]
     }
   },
