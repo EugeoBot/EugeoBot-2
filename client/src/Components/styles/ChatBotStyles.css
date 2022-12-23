@@ -79,6 +79,11 @@
   color: #eee;
   font-size: 10px;
 }
+.chat-box-body-receive a {
+  color: #ea638c;
+  text-decoration: none;
+  font-weight: 700;
+}
 .chat-box-body::-webkit-scrollbar {
   width: 5px !important;
   opacity: 0 !important;

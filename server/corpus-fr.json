@@ -99,10 +99,10 @@
       {
         "intent": "autisme.symptomes",
         "utterances": [
-          "les symptomes d'autisme",
+          "les symptômes d'autisme",
           "les signes d'autisme",
           "se sont quoi les signes d'autisme",
-          "se sont quoi les symptomes d'autisme"
+          "se sont quoi les symptômes d'autisme"
         ],
         "answers": [
           { "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée." }
@@ -111,10 +111,10 @@
       {
         "intent": "can.symptomes",
         "utterances": [
-          "les symptomes du cancer",
+          "les symptômes du cancer",
           "les signes du cancer",
           "se sont quoi les signes du cancer",
-          "se sont quoi les symptomes du cancer"
+          "se sont quoi les symptômes du cancer"
         ],
         "answers": [
           { "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles" }
@@ -123,10 +123,10 @@
       {
         "intent": "dep.symptomes",
         "utterances": [
-          "les symptomes de dépression",
+          "les symptômes de dépression",
           "les signes de dépression",
           "se sont quoi les signes de dépression",
-          "se sont quoi les symptomes de dépression"
+          "se sont quoi les symptômes de dépression"
         ],
         "answers": [
           { "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions." }
@@ -135,10 +135,10 @@
       {
         "intent": "grippeIntestinale.symp",
         "utterances": [
-          "les symptomes de grippe intestinale",
+          "les symptômes de grippe intestinale",
           "les signes du grippe intestinale",
           "se sont quoi les signes du grippe intestinale",
-          "se sont quoi les signes du grippe intestinale"
+          "se sont quoi les symptômes du grippe intestinale"
         ],
         "answers": [
           { "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue." }
@@ -147,166 +147,144 @@
       {
         "intent": "InfectionPulmonaire.symp",
         "utterances": [
-            "les symptomes d'infection pulmonaire",
+            "les symptômes d'infection pulmonaire",
             "les signes d'infection pulmonaire",
             "se sont quoi les signes d'infection pulmonaire'",
-            "se sont quoi les signes d'infection pulmonaire"
+            "se sont quoi les symptômes d'infection pulmonaire"
         ],
         "answers": [
           { "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général." }
         ]
       },
       {
-        "intent": "Alzheimer.symptoms",
+        "intent": "LAlzheimer.symp",
         "utterances": [
-          "what are symptoms of Alzheimer's "
+            "les symptômes d'alzheimer",
+            "les signes d'alzheimer",
+            "se sont quoi les signes d'alzheimer",
+            "se sont quoi les symptômes d'alzheimer"
         ],
         "answers": [
-          { "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety" }
+          { "answer": "les pertes de mémoire. les difficultés croissantes pour accomplir des tâches familières. la perte de motivation. les problèmes de langage. la désorientation dans le temps et dans l'espace. les difficultés de raisonnement." }
         ]
       },
       {
-        "intent": "asthma.symptoms",
+        "intent": "fievre.soign",
         "utterances": [
-          "what are symptoms of asthma "
+          "comment guérir la fièvre sans médicaments",
+          "guérir la fièvre sans médicaments"
         ],
         "answers": [
-          { "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest" }
+          { "answer": "Faire boire de l'eau régulièrement. passer un gant d'eau froide. Tisane. Le miel" }
         ]
       },
       {
-        "intent": "fever.heal",
+        "intent": "rhume.soign",
         "utterances": [
-          "how to heal fever without medicines",
-          "heal fever without medicines"
+          "comment soigner le rhume sans médicaments",
+          "soigner le rhume sans médicaments"
         ],
         "answers": [
-          { "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing" }
+          { "answer": "mouchez-vous régulièrement. nettoyez vos fosses nasales avec des sprays d'eau ou du sérum physiologique. prenez un antalgique (paracétamol). reposez-vous." }
         ]
       },
       {
-        "intent": "cold.heal",
+        "intent": "dep.soign",
         "utterances": [
-          "how to heal cold without medicines",
-          "heal cold without medicines"
+          "je pense que je fais une dépression",
+          "je suis malade mentalement"
         ],
         "answers": [
-          { "answer": "Stay hydrated Rest Add moisture to the air Try honey" }
+          { "answer": "ne sois pas ! tu es assez fort" },
+          { "answer": "tout va bien se passer! réconforter" },
+          { "answer": "vous pouvez consulter un médecin si vous en avez vraiment besoin, sinon parlez-en à quelqu'un"}
         ]
       },
       {
-        "intent": "depression.heal",
+        "intent": "sante.conseil",
         "utterances": [
-          "i think i have depression",
-          "i'm mentally sick"
+          "donnez-moi des conseils de santé",
+          "conseils de santé",
+          "un conseil de santé?"
         ],
         "answers": [
-          { "answer": "don't be! you're strong enough" },
-          { "answer": "everything is gonna be okay! cheer up" },
-          { "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"}
+          { "answer": "ne code pas" },
+          { "answer": "Restez hydraté" },
+          { "answer": "faire du sport" },
+          { "answer": "Mangez sain"}
         ]
       },
       {
-        "intent": "health.advice",
+        "intent": "pertePois.asstuces",
         "utterances": [
-          "give me some health care advice",
-          "health care advice",
-          "any health care advide?"
+          "perte de poids",
+          "conseils pour perdre du poids",
+          "donne moi des conseils pour perdre du poidss"
         ],
         "answers": [
-          { "answer": "don't code" },
-          { "answer": "stay hydrated" },
-          { "answer": "practice sports" },
-          { "answer": "eat healthy"}
+          { "answer": "voici quelques conseils : Ne sautez pas le petit-déjeuner Prenez des repas réguliers Mangez beaucoup de fruits et de légumes Buvez beaucoup d'eau Mangez des aliments riches en fibres Utilisez une assiette plus petite Faites du sport" }
         ]
       },
       {
-        "intent": "weigthLoss.tips",
+        "intent": "aptitude.exo",
         "utterances": [
-          "weigth loss",
-          "tips for weight loss",
-          "give me some tips for weight loss"
+          "quel genre de sport pratiquer pour maigrir ?",
+          "quel genre de sport pratiquer pour perdre du poids ?"
         ],
         "answers": [
-          { "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports" }
-        ]
-      },
-      {
-        "intent": "fitness.ex",
-        "utterances": [
-          "what kind of sports do i play for weight loss?"
-        ],
-        "answers": [
-          { "answer": "cardio running stretching walking swimming and any other activity that includes efforts" }
+          { "answer": "cardio running stretching marche natation et toute autre activité qui implique des efforts" }
         ]
       },
       {
         "intent": "user.redirect",
         "utterances": [
-          "Can I talk to a real human?",
-          "Please connect me to a living person",
-          "Please redirect me to an employee",
-          "Can I talk to someone human?",
-          "Can I see a human operator please?",
-          "I want to enter the live chat",
-          "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+          "Puis-je parler à un vrai humain ?",
+          "Veuillez me connecter à une personne vivante",
+          "Veuillez me rediriger vers un employé",
+          "Puis-je parler à quelqu'un d'humain ?",
+          "Puis-je voir un opérateur humain s'il vous plaît ?",
+          "Je veux entrer dans le chat en direct",
+          "Je déteste les chatbots en fait, alors s'il vous plaît, pourriez-vous sortir de mon écran et me connecter à quelqu'un fait de chair merci"
         ]
       },
       {
         "intent": "user.thanking",
         "utterances": [
-          "thanks",
-          "thank you",
-          "thanks a billion",
-          "thx",
-          "grateful"
+          "merci",
+          "mrc",
+          "merci beaucoup",
+          "mrc bcp"
         ],
         "answers": [
-          { "answer": "No problem!"},
-          { "answer": "Sure!"}
+          { "answer": "pas de soucis!"},
+          { "answer": "avec plaisir!"},
+          { "answer": "de rien!"}
         ]
       },
       {
         "intent": "user.pricing",
         "utterances": [
-          "Can I see the prices?",
-          "What's the pricing?",
-          "How much is it?",
-          "How much do I have to pay?"
+          "Puis-je voir les prix ?",
+          "Quel est le prix ?",
+          "Combien ça coûte?",
+          "Combien dois-je payer ?"
         ],
         "answers": [
-          { "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"}
-        ]
-      },
-      {
-        "intent": "greetings.hello",
-        "utterances": [
-          "hello",
-          "hi",
-          "yo",
-          "hey",
-          "greetings",
-          "hey there",
-          "hola",
-          "What's up?"
-        ],
-        "answers": [
-          { "answer": "Hey there!" },
-          { "answer": "Greetings!"}
+          { "answer": "les prix sont ici: https://stormotion.io/"}
         ]
       },
       {
         "intent": "user.book",
         "utterances": [
-          "I'd like to book an appointment",
-          "I wanna see the doc",
-          "Can I see the doctor?",
-          "When is the doctor available?",
-          "I want some help with my knee",
-          "I want to see @doctor",
-          "I'd like to visit @doctor",
-          "Is @doctor available?",
-          "another reservation pls"
+          "Je souhaite prendre rendez-vous",
+          "je veux voir le doc",
+          "Puis-je voir le médecin?",
+          "Quand le médecin est-il disponible ?",
+          "Je veux de l'aide avec mon genou",
+          "Je veux voir @doctor",
+          "J'aimerais visiter @doctor",
+          "@doctor est-il disponible ?",
+          "une autre réservation svp"
         ]
       }
     ],
