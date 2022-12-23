@@ -12541,7 +12541,7 @@
         ],
         "greetings.name": [
           {
-            "answer": "you can call me eugeo"
+            "answer": "you can call me Eugeo"
           }
         ],
         "greetings.whoRyou": [
@@ -12655,7 +12655,7 @@
         ],
         "user.pricing": [
           {
-            "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"
+            "answer": "Check out our pricing by the link:  https://stormotion.io/"
           }
         ],
         "greetings.hello": [

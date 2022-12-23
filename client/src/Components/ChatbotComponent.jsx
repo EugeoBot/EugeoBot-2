@@ -5,13 +5,16 @@ import ScrollToBottom from "react-scroll-to-bottom";
 import "./styles/ChatBotStyles.css";
 import { v4 as uuid } from "uuid";
 import { format } from "date-fns";
+import Linkify from "react-linkify";
 
 const bot = { id: "0", name: "bot" };
 
 function IncomingMessage({ message }) {
   return (
     <div className="chat-box-body-receive">
-      <p>{message.text}</p>
+      <p>
+        <Linkify>{message.text}</Linkify>
+      </p>
       <span>{message.timestamp}</span>
     </div>
   );
@@ -107,6 +110,7 @@ function ChatBotRobot({ socket, open }) {
               name="message"
               value={usermessage}
               onChange={(e) => setUsermessage(e.target.value)}
+              autoComplete="off"
             />
             <button id="addExtra" type="submit">
               <IconContext.Provider
