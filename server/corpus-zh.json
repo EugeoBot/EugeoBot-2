@@ -19,6 +19,237 @@
         "answers": [
           { "answer": "我很好"}
         ]
+      },
+      {
+        "intent": "zaijian.zj",
+        "utterances": [
+          "再见",
+          "拜拜",
+          "好拜拜",
+          "我先走了"
+        ],
+        "answers": [
+          { "answer": "好拜拜" },
+          { "answer": "再见楼!"}
+        ]
+      },
+      {
+        "intent": "zoushenme.zshm",
+        "utterances": [
+          "你做什么",
+          "你干么呀",
+          "你在干什么"
+        ],
+        "answers": [
+          { "answer": "在等你楼" },
+          { "answer": "等你啊" },
+          { "answer": "等等你"}
+        ]
+      },
+      {
+        "intent": "jisuile.jsl",
+        "utterances": [
+          "你几岁？",
+          "你几岁了？"
+        ],
+        "answers": [
+          { "answer": "3 岁" }
+        ]
+      },
+      {
+        "intent": "nijiaoshenme.njsm",
+        "utterances": [
+          "你叫什么",
+          "你的名字是什么"
+        ],
+        "answers": [
+          { "answer": "我叫 eugeo" }
+        ]
+      },
+      {
+        "intent": "nishishei.nss",
+        "utterances": [
+          "你是谁"
+        ],
+        "answers": [
+          { "answer": "我是最好的助理" }
+        ]
+      },
+      {
+        "intent": "wenni.wen",
+        "utterances": [
+          "我可以不可以问你么"
+        ],
+        "answers": [
+          { "answer": "可以" },
+          { "answer": "当然" }
+        ]
+      },
+      {
+        "intent": "auti.autiayma",
+        "utterances": [
+          "自闭症的症状是什么"
+        ],
+        "answers": [
+          { "answer": "语言技能延迟 运动技能延迟 认知或学习技能延迟 多动、冲动和/或注意力不集中 癫痫或癫痫发作 不正常的饮食和睡眠习惯 胃肠道问题（例如便秘） 不正常的情绪或情绪反应 焦虑、压力或过度担心 缺乏恐惧或比预期更恐惧" }
+        ]
+      },
+      {
+        "intent": "can.symp",
+        "utterances": [
+          "癌症的症状是什么"
+        ],
+        "answers": [
+          { "answer": "癌症的症状： 乳房变化 膀胱变化 出血或瘀伤 咳嗽 饮食问题 发烧或盗汗 疲劳" }
+        ]
+      },
+      {
+        "intent": "dep.symp",
+        "utterances": [
+          "抑郁症的症状是什么"
+        ],
+        "answers": [
+          { "answer": "抑郁症的症状： 睡眠障碍 疲倦和精力不足 食欲减退和体重减轻或对食物和体重增加的渴望增加" }
+        ]
+      },
+      {
+        "intent": "stomac.symp",
+        "utterances": [
+          "肠胃感冒有什么症状"
+        ],
+        "answers": [
+          { "answer": "胃流感的症状： 腹泻 瘙痒 胃痛 发烧 头痛" }
+        ]
+      },
+      {
+        "intent": "lung.symp",
+        "utterances": [
+          "肺部感染有什么症状"
+        ],
+        "answers": [
+          { "answer": "肺部感染的症状：咳嗽喉咙痛胸痛头痛流鼻涕" }
+        ]
+      },
+      {
+        "intent": "Alzh.symp",
+        "utterances": [
+          "阿尔茨海默病的症状是什么 "
+        ],
+        "answers": [
+          { "answer": "阿尔茨海默氏症的症状：混乱迷失方向在熟悉的地方迷路难以计划或做出决定言语和语言问题性格改变焦虑" }
+        ]
+      },
+      {
+        "intent": "fev.healshenbin",
+        "utterances": [
+          "如何在没有药物的情况下治愈发烧",
+          "发烧不吃药"
+        ],
+        "answers": [
+          { "answer": "多喝水 喝冰块 休息 洗个温水澡 吃点阿司匹林 穿轻便的衣服" }
+        ]
+      },
+      {
+        "intent": "depr.healshenbin",
+        "utterances": [
+          "我想我有抑郁症",
+          "我有精神病"
+        ],
+        "answers": [
+          { "answer": "不要！你够坚强" },
+          { "answer": "一切都会好起来的！振作起来" },
+          { "answer": "如果你真的需要，可以去看医生，否则就和别人谈谈"}
+        ]
+      },
+      {
+        "intent": "jiankang.advisi",
+        "utterances": [
+          "给我一些保健建议",
+          "保健建议",
+          "有什么保健建议吗"
+        ],
+        "answers": [
+          { "answer": "不要编码" },
+          { "answer": "喝水" },
+          { "answer": "练习运动" },
+          { "answer": "好好吃"}
+        ]
+      },
+      {
+        "intent": "zhongweigthLossi.zenme",
+        "utterances": [
+          "减肥",
+          "减肥秘诀",
+          "给我一些减肥秘诀"
+        ],
+        "answers": [
+          { "answer": "这里有一些提示： 不要不吃早餐 定时进餐 多吃水果和蔬菜 多喝水 吃高纤维食物 使用较小的盘子 做运动" }
+        ]
+      },
+      {
+        "intent": "feifei.haofei",
+        "utterances": [
+          "我参加什么样的运动来减肥？"
+        ],
+        "answers": [
+          { "answer": "有氧运动、伸展运动、步行、游泳和任何其他需要付出努力的活动" }
+        ]
+      },
+      {
+        "intent": "user.redirect",
+        "utterances": [
+          "我可以和真人交谈吗？",
+          "请将我连接到一个活生生的人",
+          "请将我重定向到员工",
+          "我可以和人类交谈吗？",
+          "我可以见人工操作员吗？"
+        ]
+      },
+      {
+        "intent": "zhonguser.xie",
+        "utterances": [
+          "谢谢",
+          "谢谢你",
+          "谢了"
+        ],
+        "answers": [
+          { "answer": "不用谢!"},
+          { "answer": "没关系"},
+          { "answer": "没问题!"}
+        ]
+      },
+      {
+        "intent": "zhongUser.qian",
+        "utterances": [
+          "我可以看看价格吗？",
+          "定价是多少？",
+          "多少钱？"
+        ],
+        "answers": [
+          { "answer": "看看: https://stormotion.io/"}
+        ]
+      },
+      {
+        "intent": "zhongUser.book",
+        "utterances": [
+          "我想预约",
+          "我想看医生",
+          "医生什么时候有空",
+          "我的膝盖需要一些帮助",
+          "我想见 @doctor",
+          "我想参观 @doctor",
+          "@doctor 有空吗",
+          "另一个预订请"
+        ]
       }
-    ]
+    ],
+    "entities": {
+      "doctor": {
+        "options": {
+          "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
+          "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
+          "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
+        }
+      }
+    }
   }

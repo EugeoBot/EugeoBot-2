@@ -12,9 +12,11 @@ const bot = { id: "0", name: "bot" };
 function IncomingMessage({ message }) {
   return (
     <div className="chat-box-body-receive">
-      <p>
+
+       <p>
         <Linkify>{message.text}</Linkify>
       </p>
+      
       <span>{message.timestamp}</span>
     </div>
   );
