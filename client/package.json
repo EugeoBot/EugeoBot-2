@@ -25,6 +25,8 @@
     "react-router": "^5.3.4",
     "react-router-dom": "^5.3.4",
     "react-scroll-to-bottom": "^4.2.0",
+    "react-speech-recognition": "^3.10.0",
+    "regenerator-runtime": "^0.13.11",
     "socket.io-client": "^4.5.4",
     "swiper": "^8.4.5",
     "uuid": "^9.0.0"
