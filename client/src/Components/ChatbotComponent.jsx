@@ -12,7 +12,11 @@ const bot = { id: "0", name: "bot" };
 function IncomingMessage({ message }) {
   return (
     <div className="chat-box-body-receive">
-      <p> <Linkify>{message.text}</Linkify></p>
+
+       <p>
+        <Linkify>{message.text}</Linkify>
+      </p>
+      
       <span>{message.timestamp}</span>
     </div>
   );
@@ -108,6 +112,7 @@ function ChatBotRobot({ socket, open }) {
               name="message"
               value={usermessage}
               onChange={(e) => setUsermessage(e.target.value)}
+              autoComplete="off"
             />
             <button id="addExtra" type="submit">
               <IconContext.Provider

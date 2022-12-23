@@ -13,8 +13,12 @@
         "bye"
       ],
       "answers": [
-        { "answer": "Till next time" },
-        { "answer": "see you soon!"}
+        {
+          "answer": "Till next time"
+        },
+        {
+          "answer": "see you soon!"
+        }
       ]
     },
     {
@@ -27,9 +31,15 @@
         "are you okay"
       ],
       "answers": [
-        { "answer": "i'm having a wonderful time!" },
-        { "answer": "i'm great!" },
-        { "answer": "good thanks!"}
+        {
+          "answer": "i'm having a wonderful time!"
+        },
+        {
+          "answer": "i'm great!"
+        },
+        {
+          "answer": "good thanks!"
+        }
       ]
     },
     {
@@ -40,9 +50,15 @@
         "are you free"
       ],
       "answers": [
-        { "answer": "i'm waiting for you to ask" },
-        { "answer": "waiting to answer your questions" },
-        { "answer": "getting ready to help you"}
+        {
+          "answer": "i'm waiting for you to ask"
+        },
+        {
+          "answer": "waiting to answer your questions"
+        },
+        {
+          "answer": "getting ready to help you"
+        }
       ]
     },
     {
@@ -52,6 +68,9 @@
       ],
       "answers": [
         { "answer": "3 months old" }
+        {
+          "answer": "today years old"
+        }
       ]
     },
     {
@@ -60,7 +79,9 @@
         "what's your name"
       ],
       "answers": [
-        { "answer": "you can call me eugeo" }
+        {
+          "answer": "you can call me Eugeo"
+        }
       ]
     },
     {
@@ -69,7 +90,9 @@
         "who are you"
       ],
       "answers": [
-        { "answer": "i'm the best medical assistant in the world" }
+        {
+          "answer": "i'm the best medical assistant in the world"
+        }
       ]
     },
     {
@@ -80,9 +103,15 @@
         "i have a problem"
       ],
       "answers": [
-        { "answer": "tell me" },
-        { "answer": "what's up ?" },
-        { "answer": "feel free to ask"}
+        {
+          "answer": "tell me"
+        },
+        {
+          "answer": "what's up ?"
+        },
+        {
+          "answer": "feel free to ask"
+        }
       ]
     },
     {
@@ -92,6 +121,10 @@
       ],
       "answers": [
         { "answer": "Delayed language skill\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected" }
+
+        {
+          "answer": "Delayed language skills\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected"
+        }
       ]
     },
     {
@@ -100,7 +133,9 @@
         "what are symptoms of cancer"
       ],
       "answers": [
-        { "answer": "symptoms of cancer : Breast changes Bladder changes Bleeding or bruising Cough Eating problems Fever or night sweats Fatigue" }
+        {
+          "answer": "symptoms of cancer : Breast changes Bladder changes Bleeding or bruising Cough Eating problems Fever or night sweats Fatigue"
+        }
       ]
     },
     {
@@ -109,7 +144,9 @@
         "what are symptoms of depression"
       ],
       "answers": [
-        { "answer": "symptoms of depression: Sleep disturbances Tiredness and lack of energy Reduced appetite and weight loss or increased cravings for food and weight gain" }
+        {
+          "answer": "symptoms of depression: Sleep disturbances Tiredness and lack of energy Reduced appetite and weight loss or increased cravings for food and weight gain"
+        }
       ]
     },
     {
@@ -118,7 +155,9 @@
         "what are symptoms of Conjunctivitis "
       ],
       "answers": [
-        { "answer": "symptoms of Conjunctivitis: Redness itchiness a feeling of irritation tearing" }
+        {
+          "answer": "symptoms of Conjunctivitis: Redness itchiness a feeling of irritation tearing"
+        }
       ]
     },
     {
@@ -127,7 +166,9 @@
         "what are symptoms of stomach flu "
       ],
       "answers": [
-        { "answer": "symptoms of stomach flu: diarrhoea itchiness stomach pain fever headache" }
+        {
+          "answer": "symptoms of stomach flu: diarrhoea itchiness stomach pain fever headache"
+        }
       ]
     },
     {
@@ -136,7 +177,9 @@
         "what are symptoms of lung infection"
       ],
       "answers": [
-        { "answer": "symptoms of lung infection: coughing sore throat chest pain headache runny nose" }
+        {
+          "answer": "symptoms of lung infection: coughing sore throat chest pain headache runny nose"
+        }
       ]
     },
     {
@@ -145,7 +188,9 @@
         "what are symptoms of Alzheimer's "
       ],
       "answers": [
-        { "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety" }
+        {
+          "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety"
+        }
       ]
     },
     {
@@ -154,7 +199,9 @@
         "what are symptoms of asthma "
       ],
       "answers": [
-        { "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest" }
+        {
+          "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest"
+        }
       ]
     },
     {
@@ -164,7 +211,9 @@
         "heal fever without medicines"
       ],
       "answers": [
-        { "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing" }
+        {
+          "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing"
+        }
       ]
     },
     {
@@ -174,7 +223,9 @@
         "heal cold without medicines"
       ],
       "answers": [
-        { "answer": "Stay hydrated Rest Add moisture to the air Try honey" }
+        {
+          "answer": "Stay hydrated Rest Add moisture to the air Try honey"
+        }
       ]
     },
     {
@@ -184,9 +235,15 @@
         "i'm mentally sick"
       ],
       "answers": [
-        { "answer": "don't be! you're strong enough" },
-        { "answer": "everything is gonna be okay! cheer up" },
-        { "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"}
+        {
+          "answer": "don't be! you're strong enough"
+        },
+        {
+          "answer": "everything is gonna be okay! cheer up"
+        },
+        {
+          "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"
+        }
       ]
     },
     {
@@ -197,10 +254,18 @@
         "any health care advide?"
       ],
       "answers": [
-        { "answer": "don't code" },
-        { "answer": "stay hydrated" },
-        { "answer": "practice sports" },
-        { "answer": "eat healthy"}
+        {
+          "answer": "don't code"
+        },
+        {
+          "answer": "stay hydrated"
+        },
+        {
+          "answer": "practice sports"
+        },
+        {
+          "answer": "eat healthy"
+        }
       ]
     },
     {
@@ -211,7 +276,9 @@
         "give me some tips for weight loss"
       ],
       "answers": [
-        { "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports" }
+        {
+          "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports"
+        }
       ]
     },
     {
@@ -220,7 +287,9 @@
         "what kind of sports do i play for weight loss?"
       ],
       "answers": [
-        { "answer": "cardio running stretching walking swimming and any other activity that includes efforts" }
+        {
+          "answer": "cardio running stretching walking swimming and any other activity that includes efforts"
+        }
       ]
     },
     {
@@ -245,8 +314,12 @@
         "grateful"
       ],
       "answers": [
-        { "answer": "No problem!"},
-        { "answer": "Sure!"}
+        {
+          "answer": "No problem!"
+        },
+        {
+          "answer": "Sure!"
+        }
       ]
     },
     {
@@ -258,7 +331,9 @@
         "How much do I have to pay?"
       ],
       "answers": [
-        { "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"}
+        {
+          "answer": "Check out our pricing by the link:  https://stormotion.io/"
+        }
       ]
     },
     {
@@ -274,8 +349,12 @@
         "What's up?"
       ],
       "answers": [
-        { "answer": "Hey there!" },
-        { "answer": "Greetings!"}
+        {
+          "answer": "Hey there!"
+        },
+        {
+          "answer": "Greetings!"
+        }
       ]
     },
     {
@@ -296,9 +375,25 @@
   "entities": {
     "doctor": {
       "options": {
-        "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
-        "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
-        "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
+        "christine": [
+          "Christine",
+          "Christie",
+          "Christine Collins",
+          "The woman with black hair",
+          "the female doctor"
+        ],
+        "josh": [
+          "Josh",
+          "Joshua",
+          "Josh Stammer",
+          "The main with glasses"
+        ],
+        "abraham": [
+          "Abraham",
+          "Abraham Brown",
+          "Abe",
+          "The man with brown curly hair"
+        ]
       }
     }
   }
