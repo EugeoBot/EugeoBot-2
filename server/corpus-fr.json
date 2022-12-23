@@ -1,0 +1,322 @@
+{
+    "name": "Corpus fr",
+    "locale": "fr-FR",
+    "data": [
+      {
+        "intent": "bonjour.bnj",
+        "utterances": [
+          "bonsoir",
+          "bonjour",
+          "coucou",
+          "salut"
+        ],
+        "answers": [
+          { "answer": "Bonjour!"},
+          { "answer":"salut!"},
+          { "answer":"coucou"}
+        ]
+      },
+      {
+        "intent": "frbye.byye",
+        "utterances": [
+          "ciao",
+          "au revoir",
+          "à bien tot",
+          "à plus",
+          "à la prochaine"
+        ],
+        "answers": [
+          { "answer": "à plus!" },
+          { "answer": "au revoir!"},
+          { "answer": "à la prochaine!"}
+        ]
+      },
+      {
+        "intent": "bonjour.commentVaTu",
+        "utterances": [
+          "comment va tu?",
+          "ça va?",
+          "cv?"
+        ],
+        "answers": [
+          { "answer": "parfait! merci" },
+          { "answer": "cv bien merci" }
+        ]
+      },
+      {
+        "intent": "bnj.tfq",
+        "utterances": [
+          "tu fais quoi?",
+          "qu'est ce que tu fait?"
+        ],
+        "answers": [
+          { "answer": "j'attend votre questions :)" }
+        ]
+      },
+      {
+        "intent": "bnj.age",
+        "utterances": [
+          "tu as quel age?",
+          "t'as quel age"
+        ],
+        "answers": [
+          { "answer": "3 mois" }
+        ]
+      },
+      {
+        "intent": "bnj.nom",
+        "utterances": [
+          "comment tu t'appel?",
+          "c'est quoi ton nom?",
+          "c quoi ton nom?"
+        ],
+        "answers": [
+          { "answer": "je m'appel eugeo" }
+        ]
+      },
+      {
+        "intent": "bnj.tqui",
+        "utterances": [
+          "t'es qui",
+          "tu es qui",
+          "vous etes qui?"
+        ],
+        "answers": [
+          { "answer": "je suis le meilleur assistant medical" }
+        ]
+      },
+      {
+        "intent": "bnj.qst",
+        "utterances": [
+          "j'ai une question",
+          "j une question"
+        ],
+        "answers": [
+          { "answer": "vas y" },
+          { "answer": "comment je peut vous aider?" }
+        ]
+      },
+      {
+        "intent": "autisme.symptomes",
+        "utterances": [
+          "les symptomes d'autisme",
+          "les signes d'autisme",
+          "se sont quoi les signes d'autisme",
+          "se sont quoi les symptomes d'autisme"
+        ],
+        "answers": [
+          { "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée." }
+        ]
+      },
+      {
+        "intent": "can.symptomes",
+        "utterances": [
+          "les symptomes du cancer",
+          "les signes du cancer",
+          "se sont quoi les signes du cancer",
+          "se sont quoi les symptomes du cancer"
+        ],
+        "answers": [
+          { "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles" }
+        ]
+      },
+      {
+        "intent": "dep.symptomes",
+        "utterances": [
+          "les symptomes de dépression",
+          "les signes de dépression",
+          "se sont quoi les signes de dépression",
+          "se sont quoi les symptomes de dépression"
+        ],
+        "answers": [
+          { "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions." }
+        ]
+      },
+      {
+        "intent": "grippeIntestinale.symp",
+        "utterances": [
+          "les symptomes de grippe intestinale",
+          "les signes du grippe intestinale",
+          "se sont quoi les signes du grippe intestinale",
+          "se sont quoi les signes du grippe intestinale"
+        ],
+        "answers": [
+          { "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue." }
+        ]
+      },
+      {
+        "intent": "InfectionPulmonaire.symp",
+        "utterances": [
+            "les symptomes d'infection pulmonaire",
+            "les signes d'infection pulmonaire",
+            "se sont quoi les signes d'infection pulmonaire'",
+            "se sont quoi les signes d'infection pulmonaire"
+        ],
+        "answers": [
+          { "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général." }
+        ]
+      },
+      {
+        "intent": "Alzheimer.symptoms",
+        "utterances": [
+          "what are symptoms of Alzheimer's "
+        ],
+        "answers": [
+          { "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety" }
+        ]
+      },
+      {
+        "intent": "asthma.symptoms",
+        "utterances": [
+          "what are symptoms of asthma "
+        ],
+        "answers": [
+          { "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest" }
+        ]
+      },
+      {
+        "intent": "fever.heal",
+        "utterances": [
+          "how to heal fever without medicines",
+          "heal fever without medicines"
+        ],
+        "answers": [
+          { "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing" }
+        ]
+      },
+      {
+        "intent": "cold.heal",
+        "utterances": [
+          "how to heal cold without medicines",
+          "heal cold without medicines"
+        ],
+        "answers": [
+          { "answer": "Stay hydrated Rest Add moisture to the air Try honey" }
+        ]
+      },
+      {
+        "intent": "depression.heal",
+        "utterances": [
+          "i think i have depression",
+          "i'm mentally sick"
+        ],
+        "answers": [
+          { "answer": "don't be! you're strong enough" },
+          { "answer": "everything is gonna be okay! cheer up" },
+          { "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"}
+        ]
+      },
+      {
+        "intent": "health.advice",
+        "utterances": [
+          "give me some health care advice",
+          "health care advice",
+          "any health care advide?"
+        ],
+        "answers": [
+          { "answer": "don't code" },
+          { "answer": "stay hydrated" },
+          { "answer": "practice sports" },
+          { "answer": "eat healthy"}
+        ]
+      },
+      {
+        "intent": "weigthLoss.tips",
+        "utterances": [
+          "weigth loss",
+          "tips for weight loss",
+          "give me some tips for weight loss"
+        ],
+        "answers": [
+          { "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports" }
+        ]
+      },
+      {
+        "intent": "fitness.ex",
+        "utterances": [
+          "what kind of sports do i play for weight loss?"
+        ],
+        "answers": [
+          { "answer": "cardio running stretching walking swimming and any other activity that includes efforts" }
+        ]
+      },
+      {
+        "intent": "user.redirect",
+        "utterances": [
+          "Can I talk to a real human?",
+          "Please connect me to a living person",
+          "Please redirect me to an employee",
+          "Can I talk to someone human?",
+          "Can I see a human operator please?",
+          "I want to enter the live chat",
+          "I hate chatbots actually so please could you get out of my screen and connect me to someone made from flesh thanks"
+        ]
+      },
+      {
+        "intent": "user.thanking",
+        "utterances": [
+          "thanks",
+          "thank you",
+          "thanks a billion",
+          "thx",
+          "grateful"
+        ],
+        "answers": [
+          { "answer": "No problem!"},
+          { "answer": "Sure!"}
+        ]
+      },
+      {
+        "intent": "user.pricing",
+        "utterances": [
+          "Can I see the prices?",
+          "What's the pricing?",
+          "How much is it?",
+          "How much do I have to pay?"
+        ],
+        "answers": [
+          { "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"}
+        ]
+      },
+      {
+        "intent": "greetings.hello",
+        "utterances": [
+          "hello",
+          "hi",
+          "yo",
+          "hey",
+          "greetings",
+          "hey there",
+          "hola",
+          "What's up?"
+        ],
+        "answers": [
+          { "answer": "Hey there!" },
+          { "answer": "Greetings!"}
+        ]
+      },
+      {
+        "intent": "user.book",
+        "utterances": [
+          "I'd like to book an appointment",
+          "I wanna see the doc",
+          "Can I see the doctor?",
+          "When is the doctor available?",
+          "I want some help with my knee",
+          "I want to see @doctor",
+          "I'd like to visit @doctor",
+          "Is @doctor available?",
+          "another reservation pls"
+        ]
+      }
+    ],
+    "entities": {
+      "doctor": {
+        "options": {
+          "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
+          "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
+          "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
+        }
+      }
+    }
+  }
