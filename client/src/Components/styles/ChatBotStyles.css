@@ -99,6 +99,9 @@
   display: flex;
   align-items: center;
 }
+.chat-box-footer-form {
+  display: flex;
+}
 .chat-box-footer button {
   border: none;
   padding: 16px;
@@ -135,7 +138,7 @@
   font-family: ubuntu;
   font-weight: 600;
   color: #444;
-  width: 280px;
+  width: 270px;
 }
 .chat-box-footer input:focus {
   outline: none;
@@ -190,5 +193,15 @@
   100% {
     opacity: 1;
     transform: translate(0, 0);
+  }
+}
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
   }
 }

@@ -1,22 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { CiPaperplane } from "react-icons/ci";
+import { BsFillMicMuteFill } from "react-icons/bs";
+import { BsFillMicFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import ScrollToBottom from "react-scroll-to-bottom";
 import "./styles/ChatBotStyles.css";
 import { v4 as uuid } from "uuid";
 import { format } from "date-fns";
 import Linkify from "react-linkify";
+import "regenerator-runtime";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
 
 const bot = { id: "0", name: "bot" };
 
 function IncomingMessage({ message }) {
   return (
     <div className="chat-box-body-receive">
-
-       <p>
+      <p>
         <Linkify>{message.text}</Linkify>
       </p>
-      
+
       <span>{message.timestamp}</span>
     </div>
   );
@@ -35,6 +40,13 @@ function ChatBotRobot({ socket, open }) {
   const [usermessage, setUsermessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [user, setUser] = useState(undefined);
+  const [isListening, setIsListening] = useState(false);
+  const {
+    transcript,
+    listening,
+    resetTranscript,
+    browserSupportsSpeechRecognition,
+  } = useSpeechRecognition();
 
   const sendMessage = async (message) => {
     await socket.emit("message", message);
@@ -44,13 +56,19 @@ function ChatBotRobot({ socket, open }) {
         id: uuid(),
         author: user,
         timestamp: format(new Date(), "MMMM do, yyyy H:mma"),
-        text: usermessage,
+        text: message,
       },
     ]);
   };
-
+  const listenAndSend = () => {
+    setIsListening(!isListening);
+    !isListening
+      ? SpeechRecognition.startListening()
+      : SpeechRecognition.stopListening();
+    console.log(transcript);
+    isListening ? sendMessage(transcript) : "";
+  };
   useEffect(() => {
-    console.log("called useeffect welcome");
     setUser({ name: "user", id: uuid() });
     socket.on("welcome", (data) => {
       setMessages([
@@ -66,7 +84,6 @@ function ChatBotRobot({ socket, open }) {
   }, []);
 
   useEffect(() => {
-    console.log("called use effect response");
     socket.on("response", (data) => {
       setMessages((list) => [
         ...list,
@@ -105,7 +122,10 @@ function ChatBotRobot({ socket, open }) {
           {displayedMessages}
         </ScrollToBottom>
         <div className="chat-box-footer">
-          <form onSubmit={(event) => handleSubmit(event)}>
+          <form
+            className="chat-box-footer-form"
+            onSubmit={(event) => handleSubmit(event)}
+          >
             <input
               placeholder="Enter Your Message"
               type="text"
@@ -114,13 +134,34 @@ function ChatBotRobot({ socket, open }) {
               onChange={(e) => setUsermessage(e.target.value)}
               autoComplete="off"
             />
-            <button id="addExtra" type="submit">
-              <IconContext.Provider
-                value={{ color: "#011936ff", size: "3rem" }}
+            <div className="chat-buttons">
+              <button id="addExtra" type="submit">
+                <IconContext.Provider
+                  value={{ color: "#011936ff", size: "2rem" }}
+                >
+                  <CiPaperplane />
+                </IconContext.Provider>
+              </button>
+              <button
+                className="voice-button"
+                type="button"
+                onClick={listenAndSend}
               >
-                <CiPaperplane />
-              </IconContext.Provider>
-            </button>
+                {!isListening ? (
+                  <IconContext.Provider
+                    value={{ color: "#011936ff", size: "2rem" }}
+                  >
+                    <BsFillMicFill />
+                  </IconContext.Provider>
+                ) : (
+                  <IconContext.Provider
+                    value={{ color: "red", size: "2.5rem" }}
+                  >
+                    <BsFillMicMuteFill />
+                  </IconContext.Provider>
+                )}
+              </button>
+            </div>
           </form>
         </div>
       </div>
