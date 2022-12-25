@@ -248,6 +248,112 @@
       ]
     },
     {
+      "intent": "food.carbs",
+      "utterances": [
+        "high carb foods",
+        "give me some high carb foods"
+      ],
+      "answers": [
+        { "answer": "Quinoa. Oats. Buckwheat. Bananas. Sweet potatoes. Oranges. Blueberries. Grapefruit. Apples. Chickpeas" }
+      ]
+    },
+    {
+      "intent": "food.protein",
+      "utterances": [
+        "high protein foods",
+        "give me some high protein foods"
+      ],
+      "answers": [
+        { "answer": "eggs. lean meats and poultry. lean cuts of beef, pork and wild game. turkey. ... nuts and seeds. peanuts. almonds. ... fish and shellfish. trout. ... lower fat dairy products. milk. ... beans, peas and lentils. brown, green or red or other lentils. ... fortified soy beverages, tofu, soybeans and other soy products." }
+      ]
+    },
+    {
+      "intent": "food.vitaminC",
+      "utterances": [
+        "high vitamin c foods",
+        "give me some high vitamin c foods"
+      ],
+      "answers": [
+        { "answer": "Citrus (oranges, kiwi, lemon, grapefruit) Bell peppers. Strawberries. Tomatoes. Cruciferous vegetables (broccoli, Brussels sprouts, cabbage, cauliflower) White potatoes." }
+      ]
+    },
+    {
+      "intent": "food.vitaminD",
+      "utterances": [
+        "high vitamin d foods",
+        "give me some high vitamin d foods"
+      ],
+      "answers": [
+        { "answer": "Cod liver oil. Salmon. Swordfish. Tuna fish. Orange juice fortified with vitamin D. Dairy and plant milks fortified with vitamin D. Sardines. Beef liver." }
+      ]
+    },
+    {
+      "intent": "food.vitaminA",
+      "utterances": [
+        "high vitamin a foods",
+        "give me some high vitamin a foods"
+      ],
+      "answers": [
+        { "answer": "Tomatoes. Red bell pepper. Cantaloupe, mango. Beef liver. Fish oils. Milk. Eggs." }
+      ]
+    },
+    {
+      "intent": "food.sug",
+      "utterances": [
+        "high sugar healthy foods",
+        "give me some high sugar healthy foods"
+      ],
+      "answers": [
+        { "answer": "Low-fat flavoured yoghurts. Instant porridge. Bottled smoothies. Granola and granola bars. Canned and boxed soups. Breakfast cereals. Canned baked beans. Dried fruit." }
+      ]
+    },
+    {
+      "intent": "food.healthyFats",
+      "utterances": [
+        "healthy fat foods",
+        "give me some healthy fat foods"
+      ],
+      "answers": [
+        { "answer": "Fish. 1/9. Naturally fatty fish like salmon, mackerel, herring, lake trout, sardines, and albacore tuna are good sources of omega-3 fatty acids. ... Avocado. 2/9. Eat it on your sandwich, or serve it up in guacamole. ... Seeds. 3/9. ... Nuts. 4/9. ... Olive Oil. 5/9. ... Eggs. 6/9. ... Ground Flaxseed. 7/9. ... Beans. 8/9." }
+      ]
+    },
+    {
+      "intent": "normal.heart",
+      "utterances": [
+        "what is the normal heart rate"
+      ],
+      "answers": [
+        { "answer": "Most adults have a resting heart rate between 60 and 100bpm. The fitter you are, the lower your resting heart rate is likely to be. For example, athletes may have a resting heart rate of 40 to 60bpm, or lower." }
+      ]
+    },
+    {
+      "intent": "normal.temperature",
+      "utterances": [
+        "what is the normal body temperature"
+      ],
+      "answers": [
+        { "answer": "(36.1 , 37.2°C)" }
+      ]
+    },
+    {
+      "intent": "normal.cholesterol",
+      "utterances": [
+        "what is the normal cholesterol level"
+      ],
+      "answers": [
+        { "answer": "5 mmol/L or below" }
+      ]
+    },
+    {
+      "intent": "normal.bloodpres",
+      "utterances": [
+        "what is the normal blood pressure"
+      ],
+      "answers": [
+        { "answer": "less than 120/80 mmHg" }
+      ]
+    },
+    {
       "intent": "user.redirect",
       "utterances": [
         "Can I talk to a real human?",

@@ -257,6 +257,112 @@
       ]
     },
     {
+      "intent": "FRfood.FRcarbs",
+      "utterances": [
+        "aliments riches en glucides",
+        "donnez-moi des aliments riches en glucides"
+      ],
+      "answers": [
+        { "answer": "Quinoa. Avoine. Sarrasin. Bananes. Patates douces. Des oranges. Myrtilles. Pamplemousse. Pommes. Pois chiches" }
+      ]
+    },
+    {
+      "intent": "foodFR.FRprotein",
+      "utterances": [
+        "aliments riches en protéines",
+        "donnez-moi des aliments riches en protéines"
+      ],
+      "answers": [
+        { "answer": "œufs. viandes maigres et volailles. coupes maigres de bœuf, de porc et de gibier. dinde. ... noix et graines. cacahuètes. amandes. ... poissons et crustacés. truite. ... produits laitiers à faible teneur en matières grasses. Le Lait. ... haricots, pois et lentilles. lentilles brunes, vertes ou rouges ou autres. ... boissons de soja enrichies, tofu, graines de soja et autres produits à base de soja." }
+      ]
+    },
+    {
+      "intent": "foodFR.FRvitaminC",
+      "utterances": [
+        "aliments riches en vitamine c",
+        "donnez-moi des aliments riches en vitamine c"
+      ],
+      "answers": [
+        { "answer": "Agrumes (oranges, kiwi, citron, pamplemousse) Poivrons. Fraises. Tomates. Légumes crucifères (brocoli, chou de Bruxelles, chou, chou-fleur) Pommes de terre blanches." }
+      ]
+    },
+    {
+      "intent": "foodFR.FRvitaminD",
+      "utterances": [
+        "aliments riches en vitamine d",
+        "donnez-moi des aliments riches en vitamine d"
+      ],
+      "answers": [
+        { "answer": "Huile de foie de morue. Saumon. Espadon. Thon. Jus d'orange enrichi en vitamine D. Laits laitiers et végétaux enrichis en vitamine D. Sardines. Foie de boeuf." }
+      ]
+    },
+    {
+      "intent": "foodFR.FRvitaminA",
+      "utterances": [
+        "aliments riches en vitamine a",
+        "donnez-moi des aliments riches en vitamine a"
+      ],
+      "answers": [
+        { "answer": "Tomates. Poivron rouge. Cantaloup, mangue. Foie de boeuf. Huiles de poisson. Du lait. Œufs." }
+      ]
+    },
+    {
+      "intent": "foodFR.FRsug",
+      "utterances": [
+        "aliments sains riches en sucre",
+        "donnez-moi des aliments sains riches en sucre"
+      ],
+      "answers": [
+        { "answer": "Yaourts aromatisés allégés. Bouillie instantanée. Smoothies en bouteille. Granola et barres granola. Soupes en conserve et en boîte. Céréales du petit-déjeuner. Fèves au lard en conserve. Fruit sec." }
+      ]
+    },
+    {
+      "intent": "foodFR.FRhealthyFats",
+      "utterances": [
+        "aliments gras sains",
+        "donnez-moi des aliments sains et gras"
+      ],
+      "answers": [
+        { "answer": "Poisson. 1/9. Les poissons naturellement gras comme le saumon, le maquereau, le hareng, le touladi, les sardines et le thon germon sont de bonnes sources d'acides gras oméga-3. ... Avocat. 2/9. Mangez-le sur votre sandwich ou servez-le dans du guacamole. ... Des graines. 3/9. ... Des noisettes. 4/9. ... Huile d'olive. 5/9. ... Œufs. 6/9. ... Graines de lin moulues. 7/9. ... Des haricots. 8/9." }
+      ]
+    },
+    {
+      "intent": "normalFR.FRheart",
+      "utterances": [
+        "quelle est la fréquence cardiaque normale"
+      ],
+      "answers": [
+        { "answer": "La plupart des adultes ont une fréquence cardiaque au repos comprise entre 60 et 100 bpm. Plus vous êtes en forme, plus votre fréquence cardiaque au repos est susceptible d'être basse. Par exemple, les athlètes peuvent avoir une fréquence cardiaque au repos de 40 à 60 bpm, ou moins." }
+      ]
+    },
+    {
+      "intent": "normalFR.FRtemperature",
+      "utterances": [
+        "quelle est la température corporelle normale"
+      ],
+      "answers": [
+        { "answer": "(36.1 , 37.2°C)" }
+      ]
+    },
+    {
+      "intent": "normalFR.FRcholesterol",
+      "utterances": [
+        "quel est le taux de cholestérol normal"
+      ],
+      "answers": [
+        { "answer": "5 mmol/L ou moins" }
+      ]
+    },
+    {
+      "intent": "normalFR.FRbloodpres",
+      "utterances": [
+        "quelle est la tension artérielle normale"
+      ],
+      "answers": [
+        { "answer": "moins de 120/80 mmHg" }
+      ]
+    },
+    {
       "intent": "user.redirect",
       "utterances": [
         "Puis-je parler à un vrai humain ?",
