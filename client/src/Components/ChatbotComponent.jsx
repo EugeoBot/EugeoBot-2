@@ -70,6 +70,11 @@ function ChatBotRobot({ socket, open }) {
     isListening ? sendMessage(transcript) : "";
   };
   useEffect(() => {
+    if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+      console.log("Your browser does not support speech recognition software!");
+    } else {
+      console.log("Your browser supports speech recognition software");
+    }
     setUser({ name: "user", id: uuid() });
     socket.on("welcome", (data) => {
       setMessages([
