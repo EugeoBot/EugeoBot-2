@@ -13,6 +13,10 @@ import "regenerator-runtime";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
+import EasySpeech from "easy-speech";
+import { async } from "regenerator-runtime";
+
+EasySpeech.detect();
 
 const bot = { id: "0", name: "bot" };
 
@@ -70,11 +74,6 @@ function ChatBotRobot({ socket, open }) {
     isListening ? sendMessage(transcript) : "";
   };
   useEffect(() => {
-    if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
-      console.log("Your browser does not support speech recognition software!");
-    } else {
-      console.log("Your browser supports speech recognition software");
-    }
     setUser({ name: "user", id: uuid() });
     socket.on("welcome", (data) => {
       setMessages([
@@ -87,12 +86,16 @@ function ChatBotRobot({ socket, open }) {
         },
       ]);
     });
+    //Speech Synthesis
+    EasySpeech.init({ maxTimeout: 5000, interval: 250 })
+      .then(() => console.debug("load complete"))
+      .catch((e) => console.error(e));
   }, []);
 
   useEffect(() => {
-    socket.on("response", (data) => {
-      const utterance = new SpeechSynthesisUtterance(data);
-      window.speechSynthesis.speak(utterance);
+    socket.on("response", async (data) => {
+      // const utterance = new SpeechSynthesisUtterance(data);
+      // window.speechSynthesis.speak(utterance);
       setMessages((list) => [
         ...list,
         {
@@ -102,6 +105,14 @@ function ChatBotRobot({ socket, open }) {
           text: data,
         },
       ]);
+      await EasySpeech.speak({
+        text: data,
+        pitch: 1,
+        rate: 1,
+        volume: 1,
+        // there are more events, see the API for supported events
+        boundary: (e) => console.debug("boundary reached"),
+      });
     });
   }, [socket]);
 
