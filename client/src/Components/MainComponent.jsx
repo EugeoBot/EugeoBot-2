@@ -15,7 +15,6 @@ socket.connect(true);
 function MainComponent() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const toggleChat = () => {
-    console.log(isChatOpen);
     setIsChatOpen(!isChatOpen);
   };
   return (
