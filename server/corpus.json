@@ -13,8 +13,12 @@
         "bye"
       ],
       "answers": [
-        { "answer": "Till next time" },
-        { "answer": "see you soon!"}
+        {
+          "answer": "Till next time"
+        },
+        {
+          "answer": "see you soon!"
+        }
       ]
     },
     {
@@ -37,8 +41,12 @@
         "you speak spanish?"
       ],
       "answers": [
-        { "answer": "yes i do!"},
-        { "answer":"yep! i'm really smart"}
+        {
+          "answer": "yes i do!"
+        },
+        {
+          "answer": "yep! i'm really smart"
+        }
       ]
     },
     {
@@ -51,9 +59,15 @@
         "are you okay"
       ],
       "answers": [
-        { "answer": "i'm having a wonderful time!" },
-        { "answer": "i'm great!" },
-        { "answer": "good thanks!"}
+        {
+          "answer": "i'm having a wonderful time!"
+        },
+        {
+          "answer": "i'm great!"
+        },
+        {
+          "answer": "good thanks!"
+        }
       ]
     },
     {
@@ -64,9 +78,15 @@
         "are you free"
       ],
       "answers": [
-        { "answer": "i'm waiting for you to ask" },
-        { "answer": "waiting to answer your questions" },
-        { "answer": "getting ready to help you"}
+        {
+          "answer": "i'm waiting for you to ask"
+        },
+        {
+          "answer": "waiting to answer your questions"
+        },
+        {
+          "answer": "getting ready to help you"
+        }
       ]
     },
     {
@@ -75,7 +95,9 @@
         "how old are you"
       ],
       "answers": [
-        { "answer": "3 months old" }
+        {
+          "answer": "3 months old"
+        }
       ]
     },
     {
@@ -84,7 +106,9 @@
         "what's your name"
       ],
       "answers": [
-        { "answer": "you can call me eugeo" }
+        {
+          "answer": "you can call me eugeo"
+        }
       ]
     },
     {
@@ -93,7 +117,9 @@
         "who are you"
       ],
       "answers": [
-        { "answer": "i'm the best medical assistant in the world" }
+        {
+          "answer": "i'm the best medical assistant in the world"
+        }
       ]
     },
     {
@@ -104,9 +130,15 @@
         "i have a problem"
       ],
       "answers": [
-        { "answer": "tell me" },
-        { "answer": "what's up ?" },
-        { "answer": "feel free to ask"}
+        {
+          "answer": "tell me"
+        },
+        {
+          "answer": "what's up ?"
+        },
+        {
+          "answer": "feel free to ask"
+        }
       ]
     },
     {
@@ -115,7 +147,9 @@
         "what are symptoms of autism"
       ],
       "answers": [
-        { "answer": "Delayed language skill\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected" }
+        {
+          "answer": "Delayed language skill\nDelayed movement skills\nDelayed cognitive or learning skills\nHyperactive, impulsive, and/or inattentive behavior\nEpilepsy or seizure disorder\nUnusual eating and sleeping habits\nGastrointestinal issues (for example, constipation)\nUnusual mood or emotional reactions\nAnxiety, stress, or excessive worry\nLack of fear or more fear than expected"
+        }
       ]
     },
     {
@@ -124,7 +158,9 @@
         "what are symptoms of cancer"
       ],
       "answers": [
-        { "answer": "symptoms of cancer : Breast changes Bladder changes Bleeding or bruising Cough Eating problems Fever or night sweats Fatigue" }
+        {
+          "answer": "symptoms of cancer : Breast changes Bladder changes Bleeding or bruising Cough Eating problems Fever or night sweats Fatigue"
+        }
       ]
     },
     {
@@ -133,7 +169,9 @@
         "what are symptoms of depression"
       ],
       "answers": [
-        { "answer": "symptoms of depression: Sleep disturbances Tiredness and lack of energy Reduced appetite and weight loss or increased cravings for food and weight gain" }
+        {
+          "answer": "symptoms of depression: Sleep disturbances Tiredness and lack of energy Reduced appetite and weight loss or increased cravings for food and weight gain"
+        }
       ]
     },
     {
@@ -142,7 +180,9 @@
         "what are symptoms of Conjunctivitis "
       ],
       "answers": [
-        { "answer": "symptoms of Conjunctivitis: Redness itchiness a feeling of irritation tearing" }
+        {
+          "answer": "symptoms of Conjunctivitis: Redness itchiness a feeling of irritation tearing"
+        }
       ]
     },
     {
@@ -151,7 +191,9 @@
         "what are symptoms of stomach flu "
       ],
       "answers": [
-        { "answer": "symptoms of stomach flu: diarrhoea itchiness stomach pain fever headache" }
+        {
+          "answer": "symptoms of stomach flu: diarrhoea itchiness stomach pain fever headache"
+        }
       ]
     },
     {
@@ -160,7 +202,9 @@
         "what are symptoms of lung infection"
       ],
       "answers": [
-        { "answer": "symptoms of lung infection: coughing sore throat chest pain headache runny nose" }
+        {
+          "answer": "symptoms of lung infection: coughing sore throat chest pain headache runny nose"
+        }
       ]
     },
     {
@@ -169,7 +213,9 @@
         "what are symptoms of Alzheimer's "
       ],
       "answers": [
-        { "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety" }
+        {
+          "answer": "symptoms of Alzheimer's : confusion disorientation getting lost in familiar places difficulty planning or making decisions problems with speech and language personality changes anixiety"
+        }
       ]
     },
     {
@@ -178,7 +224,9 @@
         "what are symptoms of asthma "
       ],
       "answers": [
-        { "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest" }
+        {
+          "answer": "symptoms of asthma : wheezing shortness of breath coughing tight chest"
+        }
       ]
     },
     {
@@ -188,7 +236,9 @@
         "heal fever without medicines"
       ],
       "answers": [
-        { "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing" }
+        {
+          "answer": "Drink Plenty of Fluids Suck on Ice Rest Take a Lukewarm Bath Take some aspirin Wear lightclothing"
+        }
       ]
     },
     {
@@ -198,7 +248,9 @@
         "heal cold without medicines"
       ],
       "answers": [
-        { "answer": "Stay hydrated Rest Add moisture to the air Try honey" }
+        {
+          "answer": "Stay hydrated Rest Add moisture to the air Try honey"
+        }
       ]
     },
     {
@@ -208,9 +260,15 @@
         "i'm mentally sick"
       ],
       "answers": [
-        { "answer": "don't be! you're strong enough" },
-        { "answer": "everything is gonna be okay! cheer up" },
-        { "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"}
+        {
+          "answer": "don't be! you're strong enough"
+        },
+        {
+          "answer": "everything is gonna be okay! cheer up"
+        },
+        {
+          "answer": "it's okay to check a doctor if you really need it, otherwise talk to someone about it"
+        }
       ]
     },
     {
@@ -221,10 +279,18 @@
         "any health care advide?"
       ],
       "answers": [
-        { "answer": "don't code" },
-        { "answer": "stay hydrated" },
-        { "answer": "practice sports" },
-        { "answer": "eat healthy"}
+        {
+          "answer": "don't code"
+        },
+        {
+          "answer": "stay hydrated"
+        },
+        {
+          "answer": "practice sports"
+        },
+        {
+          "answer": "eat healthy"
+        }
       ]
     },
     {
@@ -235,7 +301,9 @@
         "give me some tips for weight loss"
       ],
       "answers": [
-        { "answer": "here are some tips: Do not skip breakfast Eat regular meals Eat plenty of fruit and vegies Drink plenty of water Eat high fibre foods Use a smaller plate play sports" }
+        {
+          "answer": "here are some tips: Do not skip breakfast. Eat regular meals. Eat plenty of fruit and vegies. Drink plenty of water. Eat high fibre foods. Use a smaller plate. Play sports"
+        }
       ]
     },
     {
@@ -244,7 +312,9 @@
         "what kind of sports do i play for weight loss?"
       ],
       "answers": [
-        { "answer": "cardio running stretching walking swimming and any other activity that includes efforts" }
+        {
+          "answer": "cardio, running, stretching, walking, swimming and any other activity that includes efforts"
+        }
       ]
     },
     {
@@ -254,7 +324,9 @@
         "give me some high carb foods"
       ],
       "answers": [
-        { "answer": "Quinoa. Oats. Buckwheat. Bananas. Sweet potatoes. Oranges. Blueberries. Grapefruit. Apples. Chickpeas" }
+        {
+          "answer": "Quinoa. Oats. Buckwheat. Bananas. Sweet potatoes. Oranges. Blueberries. Grapefruit. Apples. Chickpeas"
+        }
       ]
     },
     {
@@ -264,7 +336,9 @@
         "give me some high protein foods"
       ],
       "answers": [
-        { "answer": "eggs. lean meats and poultry. lean cuts of beef, pork and wild game. turkey. ... nuts and seeds. peanuts. almonds. ... fish and shellfish. trout. ... lower fat dairy products. milk. ... beans, peas and lentils. brown, green or red or other lentils. ... fortified soy beverages, tofu, soybeans and other soy products." }
+        {
+          "answer": "eggs. lean meats and poultry. lean cuts of beef, pork and wild game. turkey. ... nuts and seeds. peanuts. almonds. ... fish and shellfish. trout. ... lower fat dairy products. milk. ... beans, peas and lentils. brown, green or red or other lentils. ... fortified soy beverages, tofu, soybeans and other soy products."
+        }
       ]
     },
     {
@@ -274,7 +348,9 @@
         "give me some high vitamin c foods"
       ],
       "answers": [
-        { "answer": "Citrus (oranges, kiwi, lemon, grapefruit) Bell peppers. Strawberries. Tomatoes. Cruciferous vegetables (broccoli, Brussels sprouts, cabbage, cauliflower) White potatoes." }
+        {
+          "answer": "Citrus (oranges, kiwi, lemon, grapefruit) Bell peppers. Strawberries. Tomatoes. Cruciferous vegetables (broccoli, Brussels sprouts, cabbage, cauliflower) White potatoes."
+        }
       ]
     },
     {
@@ -284,7 +360,9 @@
         "give me some high vitamin d foods"
       ],
       "answers": [
-        { "answer": "Cod liver oil. Salmon. Swordfish. Tuna fish. Orange juice fortified with vitamin D. Dairy and plant milks fortified with vitamin D. Sardines. Beef liver." }
+        {
+          "answer": "Cod liver oil. Salmon. Swordfish. Tuna fish. Orange juice fortified with vitamin D. Dairy and plant milks fortified with vitamin D. Sardines. Beef liver."
+        }
       ]
     },
     {
@@ -294,7 +372,9 @@
         "give me some high vitamin a foods"
       ],
       "answers": [
-        { "answer": "Tomatoes. Red bell pepper. Cantaloupe, mango. Beef liver. Fish oils. Milk. Eggs." }
+        {
+          "answer": "Tomatoes. Red bell pepper. Cantaloupe, mango. Beef liver. Fish oils. Milk. Eggs."
+        }
       ]
     },
     {
@@ -304,7 +384,9 @@
         "give me some high sugar healthy foods"
       ],
       "answers": [
-        { "answer": "Low-fat flavoured yoghurts. Instant porridge. Bottled smoothies. Granola and granola bars. Canned and boxed soups. Breakfast cereals. Canned baked beans. Dried fruit." }
+        {
+          "answer": "Low-fat flavoured yoghurts. Instant porridge. Bottled smoothies. Granola and granola bars. Canned and boxed soups. Breakfast cereals. Canned baked beans. Dried fruit."
+        }
       ]
     },
     {
@@ -314,7 +396,9 @@
         "give me some healthy fat foods"
       ],
       "answers": [
-        { "answer": "Fish. 1/9. Naturally fatty fish like salmon, mackerel, herring, lake trout, sardines, and albacore tuna are good sources of omega-3 fatty acids. ... Avocado. 2/9. Eat it on your sandwich, or serve it up in guacamole. ... Seeds. 3/9. ... Nuts. 4/9. ... Olive Oil. 5/9. ... Eggs. 6/9. ... Ground Flaxseed. 7/9. ... Beans. 8/9." }
+        {
+          "answer": "Fish. 1/9. Naturally fatty fish like salmon, mackerel, herring, lake trout, sardines, and albacore tuna are good sources of omega-3 fatty acids. ... Avocado. 2/9. Eat it on your sandwich, or serve it up in guacamole. ... Seeds. 3/9. ... Nuts. 4/9. ... Olive Oil. 5/9. ... Eggs. 6/9. ... Ground Flaxseed. 7/9. ... Beans. 8/9."
+        }
       ]
     },
     {
@@ -323,7 +407,9 @@
         "what is the normal heart rate"
       ],
       "answers": [
-        { "answer": "Most adults have a resting heart rate between 60 and 100bpm. The fitter you are, the lower your resting heart rate is likely to be. For example, athletes may have a resting heart rate of 40 to 60bpm, or lower." }
+        {
+          "answer": "Most adults have a resting heart rate between 60 and 100bpm. The fitter you are, the lower your resting heart rate is likely to be. For example, athletes may have a resting heart rate of 40 to 60bpm, or lower."
+        }
       ]
     },
     {
@@ -332,7 +418,9 @@
         "what is the normal body temperature"
       ],
       "answers": [
-        { "answer": "(36.1 , 37.2°C)" }
+        {
+          "answer": "(36.1 , 37.2°C)"
+        }
       ]
     },
     {
@@ -341,7 +429,9 @@
         "what is the normal cholesterol level"
       ],
       "answers": [
-        { "answer": "5 mmol/L or below" }
+        {
+          "answer": "5 mmol/L or below"
+        }
       ]
     },
     {
@@ -350,7 +440,9 @@
         "what is the normal blood pressure"
       ],
       "answers": [
-        { "answer": "less than 120/80 mmHg" }
+        {
+          "answer": "less than 120/80 mmHg"
+        }
       ]
     },
     {
@@ -375,8 +467,12 @@
         "grateful"
       ],
       "answers": [
-        { "answer": "No problem!"},
-        { "answer": "Sure!"}
+        {
+          "answer": "No problem!"
+        },
+        {
+          "answer": "Sure!"
+        }
       ]
     },
     {
@@ -388,7 +484,9 @@
         "How much do I have to pay?"
       ],
       "answers": [
-        { "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"}
+        {
+          "answer": "Check out our pricing by the link:\nhttps://stormotion.io/"
+        }
       ]
     },
     {
@@ -404,8 +502,12 @@
         "What's up?"
       ],
       "answers": [
-        { "answer": "Hey there!" },
-        { "answer": "Greetings!"}
+        {
+          "answer": "Hey there!"
+        },
+        {
+          "answer": "Greetings!"
+        }
       ]
     }
   ]
