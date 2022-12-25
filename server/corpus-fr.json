@@ -11,15 +11,30 @@
         "salut"
       ],
       "answers": [
-        {
-          "answer": "Bonjour!"
-        },
-        {
-          "answer": "salut!"
-        },
-        {
-          "answer": "coucou"
-        }
+        { "answer": "Bonjour!"},
+        { "answer":"salut!"},
+        { "answer":"coucou"}
+      ]
+    },
+    {
+      "intent": "bonjour.tpfr",
+      "utterances": [
+        "tu parle français?",
+        "tu parle en français?",
+        "est ce que tu parle en français",
+        "tu parle anglais?",
+        "tu parle en anglais?",
+        "est ce que tu parle en anglais",
+        "tu parle espagnol?",
+        "tu parle en espagnol?",
+        "est ce que tu parle en espagnol",
+        "tu parle chinois?",
+        "tu parle en chinois?",
+        "est ce que tu parle en chinois"
+      ],
+      "answers": [
+        { "answer": "oui bien sure!"},
+        { "answer":"ouais!"}
       ]
     },
     {
@@ -32,31 +47,21 @@
         "à la prochaine"
       ],
       "answers": [
-        {
-          "answer": "à plus!"
-        },
-        {
-          "answer": "au revoir!"
-        },
-        {
-          "answer": "à la prochaine!"
-        }
+        { "answer": "à plus!" },
+        { "answer": "au revoir!"},
+        { "answer": "à la prochaine!"}
       ]
     },
     {
       "intent": "bonjour.commentVaTu",
       "utterances": [
-        "comment va tu?",
+        "comment vas-tu?",
         "ça va?",
         "cv?"
       ],
       "answers": [
-        {
-          "answer": "parfait! merci"
-        },
-        {
-          "answer": "cv bien merci"
-        }
+        { "answer": "parfait! merci" },
+        { "answer": "cv bien merci" }
       ]
     },
     {
@@ -66,9 +71,7 @@
         "qu'est ce que tu fait?"
       ],
       "answers": [
-        {
-          "answer": "j'attend votre questions :)"
-        }
+        { "answer": "j'attend votre questions :)" }
       ]
     },
     {
@@ -78,9 +81,7 @@
         "t'as quel age"
       ],
       "answers": [
-        {
-          "answer": "3 mois"
-        }
+        { "answer": "3 mois" }
       ]
     },
     {
@@ -91,9 +92,7 @@
         "c quoi ton nom?"
       ],
       "answers": [
-        {
-          "answer": "je m'appel Eugeo"
-        }
+        { "answer": "je m'appel eugeo" }
       ]
     },
     {
@@ -104,9 +103,7 @@
         "vous etes qui?"
       ],
       "answers": [
-        {
-          "answer": "je suis le meilleur assistant medical"
-        }
+        { "answer": "je suis le meilleur assistant medical" }
       ]
     },
     {
@@ -116,12 +113,8 @@
         "j une question"
       ],
       "answers": [
-        {
-          "answer": "vas y"
-        },
-        {
-          "answer": "comment je peut vous aider?"
-        }
+        { "answer": "vas y" },
+        { "answer": "comment je peut vous aider?" }
       ]
     },
     {
@@ -133,9 +126,7 @@
         "se sont quoi les symptômes d'autisme"
       ],
       "answers": [
-        {
-          "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée."
-        }
+        { "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée." }
       ]
     },
     {
@@ -147,9 +138,7 @@
         "se sont quoi les symptômes du cancer"
       ],
       "answers": [
-        {
-          "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles"
-        }
+        { "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles" }
       ]
     },
     {
@@ -161,9 +150,7 @@
         "se sont quoi les symptômes de dépression"
       ],
       "answers": [
-        {
-          "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions."
-        }
+        { "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions." }
       ]
     },
     {
@@ -175,37 +162,31 @@
         "se sont quoi les symptômes du grippe intestinale"
       ],
       "answers": [
-        {
-          "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue."
-        }
+        { "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue." }
       ]
     },
     {
       "intent": "InfectionPulmonaire.symp",
       "utterances": [
-        "les symptômes d'infection pulmonaire",
-        "les signes d'infection pulmonaire",
-        "se sont quoi les signes d'infection pulmonaire'",
-        "se sont quoi les symptômes d'infection pulmonaire"
+          "les symptômes d'infection pulmonaire",
+          "les signes d'infection pulmonaire",
+          "se sont quoi les signes d'infection pulmonaire'",
+          "se sont quoi les symptômes d'infection pulmonaire"
       ],
       "answers": [
-        {
-          "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général."
-        }
+        { "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général." }
       ]
     },
     {
       "intent": "LAlzheimer.symp",
       "utterances": [
-        "les symptômes d'alzheimer",
-        "les signes d'alzheimer",
-        "se sont quoi les signes d'alzheimer",
-        "se sont quoi les symptômes d'alzheimer"
+          "les symptômes d'alzheimer",
+          "les signes d'alzheimer",
+          "se sont quoi les signes d'alzheimer",
+          "se sont quoi les symptômes d'alzheimer"
       ],
       "answers": [
-        {
-          "answer": "les pertes de mémoire. les difficultés croissantes pour accomplir des tâches familières. la perte de motivation. les problèmes de langage. la désorientation dans le temps et dans l'espace. les difficultés de raisonnement."
-        }
+        { "answer": "les pertes de mémoire. les difficultés croissantes pour accomplir des tâches familières. la perte de motivation. les problèmes de langage. la désorientation dans le temps et dans l'espace. les difficultés de raisonnement." }
       ]
     },
     {
@@ -215,9 +196,7 @@
         "guérir la fièvre sans médicaments"
       ],
       "answers": [
-        {
-          "answer": "Faire boire de l'eau régulièrement. passer un gant d'eau froide. Tisane. Le miel"
-        }
+        { "answer": "Faire boire de l'eau régulièrement. passer un gant d'eau froide. Tisane. Le miel" }
       ]
     },
     {
@@ -227,9 +206,7 @@
         "soigner le rhume sans médicaments"
       ],
       "answers": [
-        {
-          "answer": "mouchez-vous régulièrement. nettoyez vos fosses nasales avec des sprays d'eau ou du sérum physiologique. prenez un antalgique (paracétamol). reposez-vous."
-        }
+        { "answer": "mouchez-vous régulièrement. nettoyez vos fosses nasales avec des sprays d'eau ou du sérum physiologique. prenez un antalgique (paracétamol). reposez-vous." }
       ]
     },
     {
@@ -239,15 +216,9 @@
         "je suis malade mentalement"
       ],
       "answers": [
-        {
-          "answer": "ne sois pas ! tu es assez fort"
-        },
-        {
-          "answer": "tout va bien se passer! réconforter"
-        },
-        {
-          "answer": "vous pouvez consulter un médecin si vous en avez vraiment besoin, sinon parlez-en à quelqu'un"
-        }
+        { "answer": "ne sois pas ! tu es assez fort" },
+        { "answer": "tout va bien se passer! réconforter" },
+        { "answer": "vous pouvez consulter un médecin si vous en avez vraiment besoin, sinon parlez-en à quelqu'un"}
       ]
     },
     {
@@ -258,18 +229,10 @@
         "un conseil de santé?"
       ],
       "answers": [
-        {
-          "answer": "ne code pas"
-        },
-        {
-          "answer": "Restez hydraté"
-        },
-        {
-          "answer": "faire du sport"
-        },
-        {
-          "answer": "Mangez sain"
-        }
+        { "answer": "ne code pas" },
+        { "answer": "Restez hydraté" },
+        { "answer": "faire du sport" },
+        { "answer": "Mangez sain"}
       ]
     },
     {
@@ -280,9 +243,7 @@
         "donne moi des conseils pour perdre du poidss"
       ],
       "answers": [
-        {
-          "answer": "voici quelques conseils : Ne sautez pas le petit-déjeuner Prenez des repas réguliers Mangez beaucoup de fruits et de légumes Buvez beaucoup d'eau Mangez des aliments riches en fibres Utilisez une assiette plus petite Faites du sport"
-        }
+        { "answer": "voici quelques conseils : Ne sautez pas le petit-déjeuner Prenez des repas réguliers Mangez beaucoup de fruits et de légumes Buvez beaucoup d'eau Mangez des aliments riches en fibres Utilisez une assiette plus petite Faites du sport" }
       ]
     },
     {
@@ -292,9 +253,7 @@
         "quel genre de sport pratiquer pour perdre du poids ?"
       ],
       "answers": [
-        {
-          "answer": "cardio running stretching marche natation et toute autre activité qui implique des efforts"
-        }
+        { "answer": "cardio running stretching marche natation et toute autre activité qui implique des efforts" }
       ]
     },
     {
@@ -310,7 +269,7 @@
       ]
     },
     {
-      "intent": "user.thanking",
+      "intent": "user.thankingFR",
       "utterances": [
         "merci",
         "mrc",
@@ -318,15 +277,9 @@
         "mrc bcp"
       ],
       "answers": [
-        {
-          "answer": "pas de soucis!"
-        },
-        {
-          "answer": "avec plaisir!"
-        },
-        {
-          "answer": "de rien!"
-        }
+        { "answer": "pas de soucis!"},
+        { "answer": "avec plaisir!"},
+        { "answer": "de rien!"}
       ]
     },
     {
@@ -338,9 +291,7 @@
         "Combien dois-je payer ?"
       ],
       "answers": [
-        {
-          "answer": "les prix sont ici: https://stormotion.io/"
-        }
+        { "answer": "les prix sont ici: https://stormotion.io/"}
       ]
     },
     {
@@ -361,25 +312,9 @@
   "entities": {
     "doctor": {
       "options": {
-        "christine": [
-          "Christine",
-          "Christie",
-          "Christine Collins",
-          "The woman with black hair",
-          "the female doctor"
-        ],
-        "josh": [
-          "Josh",
-          "Joshua",
-          "Josh Stammer",
-          "The main with glasses"
-        ],
-        "abraham": [
-          "Abraham",
-          "Abraham Brown",
-          "Abe",
-          "The man with brown curly hair"
-        ]
+        "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
+        "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
+        "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
       }
     }
   }

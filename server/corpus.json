@@ -18,6 +18,30 @@
       ]
     },
     {
+      "intent": "greeting.french",
+      "utterances": [
+        "u speak french?",
+        "do u speak french?",
+        "do you speak french?",
+        "you speak french?",
+        "u speak english?",
+        "do u speak english?",
+        "do you speak english?",
+        "you speak english?",
+        "u speak chinese?",
+        "do u speak chinese?",
+        "do you speak chinese?",
+        "you speak chinese?",
+        "do u speak spanish?",
+        "do you speak spanish?",
+        "you speak spanish?"
+      ],
+      "answers": [
+        { "answer": "yes i do!"},
+        { "answer":"yep! i'm really smart"}
+      ]
+    },
+    {
       "intent": "greetings.howu",
       "utterances": [
         "how are you",
@@ -277,29 +301,6 @@
         { "answer": "Hey there!" },
         { "answer": "Greetings!"}
       ]
-    },
-    {
-      "intent": "user.book",
-      "utterances": [
-        "I'd like to book an appointment",
-        "I wanna see the doc",
-        "Can I see the doctor?",
-        "When is the doctor available?",
-        "I want some help with my knee",
-        "I want to see @doctor",
-        "I'd like to visit @doctor",
-        "Is @doctor available?",
-        "another reservation pls"
-      ]
     }
-  ],
-  "entities": {
-    "doctor": {
-      "options": {
-        "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
-        "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
-        "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
-      }
-    }
-  }
+  ]
 }
