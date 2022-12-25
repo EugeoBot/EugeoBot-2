@@ -1,300 +1,321 @@
 {
-    "name": "Corpus fr",
-    "locale": "fr-FR",
-    "data": [
-      {
-        "intent": "bonjour.bnj",
-        "utterances": [
-          "bonsoir",
-          "bonjour",
-          "coucou",
-          "salut"
-        ],
-        "answers": [
-          { "answer": "Bonjour!"},
-          { "answer":"salut!"},
-          { "answer":"coucou"}
-        ]
-      },
-      {
-        "intent": "frbye.byye",
-        "utterances": [
-          "ciao",
-          "au revoir",
-          "à bien tot",
-          "à plus",
-          "à la prochaine"
-        ],
-        "answers": [
-          { "answer": "à plus!" },
-          { "answer": "au revoir!"},
-          { "answer": "à la prochaine!"}
-        ]
-      },
-      {
-        "intent": "bonjour.commentVaTu",
-        "utterances": [
-          "comment va tu?",
-          "ça va?",
-          "cv?"
-        ],
-        "answers": [
-          { "answer": "parfait! merci" },
-          { "answer": "cv bien merci" }
-        ]
-      },
-      {
-        "intent": "bnj.tfq",
-        "utterances": [
-          "tu fais quoi?",
-          "qu'est ce que tu fait?"
-        ],
-        "answers": [
-          { "answer": "j'attend votre questions :)" }
-        ]
-      },
-      {
-        "intent": "bnj.age",
-        "utterances": [
-          "tu as quel age?",
-          "t'as quel age"
-        ],
-        "answers": [
-          { "answer": "3 mois" }
-        ]
-      },
-      {
-        "intent": "bnj.nom",
-        "utterances": [
-          "comment tu t'appel?",
-          "c'est quoi ton nom?",
-          "c quoi ton nom?"
-        ],
-        "answers": [
-          { "answer": "je m'appel eugeo" }
-        ]
-      },
-      {
-        "intent": "bnj.tqui",
-        "utterances": [
-          "t'es qui",
-          "tu es qui",
-          "vous etes qui?"
-        ],
-        "answers": [
-          { "answer": "je suis le meilleur assistant medical" }
-        ]
-      },
-      {
-        "intent": "bnj.qst",
-        "utterances": [
-          "j'ai une question",
-          "j une question"
-        ],
-        "answers": [
-          { "answer": "vas y" },
-          { "answer": "comment je peut vous aider?" }
-        ]
-      },
-      {
-        "intent": "autisme.symptomes",
-        "utterances": [
-          "les symptômes d'autisme",
-          "les signes d'autisme",
-          "se sont quoi les signes d'autisme",
-          "se sont quoi les symptômes d'autisme"
-        ],
-        "answers": [
-          { "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée." }
-        ]
-      },
-      {
-        "intent": "can.symptomes",
-        "utterances": [
-          "les symptômes du cancer",
-          "les signes du cancer",
-          "se sont quoi les signes du cancer",
-          "se sont quoi les symptômes du cancer"
-        ],
-        "answers": [
-          { "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles" }
-        ]
-      },
-      {
-        "intent": "dep.symptomes",
-        "utterances": [
-          "les symptômes de dépression",
-          "les signes de dépression",
-          "se sont quoi les signes de dépression",
-          "se sont quoi les symptômes de dépression"
-        ],
-        "answers": [
-          { "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions." }
-        ]
-      },
-      {
-        "intent": "grippeIntestinale.symp",
-        "utterances": [
-          "les symptômes de grippe intestinale",
-          "les signes du grippe intestinale",
-          "se sont quoi les signes du grippe intestinale",
-          "se sont quoi les symptômes du grippe intestinale"
-        ],
-        "answers": [
-          { "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue." }
-        ]
-      },
-      {
-        "intent": "InfectionPulmonaire.symp",
-        "utterances": [
-            "les symptômes d'infection pulmonaire",
-            "les signes d'infection pulmonaire",
-            "se sont quoi les signes d'infection pulmonaire'",
-            "se sont quoi les symptômes d'infection pulmonaire"
-        ],
-        "answers": [
-          { "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général." }
-        ]
-      },
-      {
-        "intent": "LAlzheimer.symp",
-        "utterances": [
-            "les symptômes d'alzheimer",
-            "les signes d'alzheimer",
-            "se sont quoi les signes d'alzheimer",
-            "se sont quoi les symptômes d'alzheimer"
-        ],
-        "answers": [
-          { "answer": "les pertes de mémoire. les difficultés croissantes pour accomplir des tâches familières. la perte de motivation. les problèmes de langage. la désorientation dans le temps et dans l'espace. les difficultés de raisonnement." }
-        ]
-      },
-      {
-        "intent": "fievre.soign",
-        "utterances": [
-          "comment guérir la fièvre sans médicaments",
-          "guérir la fièvre sans médicaments"
-        ],
-        "answers": [
-          { "answer": "Faire boire de l'eau régulièrement. passer un gant d'eau froide. Tisane. Le miel" }
-        ]
-      },
-      {
-        "intent": "rhume.soign",
-        "utterances": [
-          "comment soigner le rhume sans médicaments",
-          "soigner le rhume sans médicaments"
-        ],
-        "answers": [
-          { "answer": "mouchez-vous régulièrement. nettoyez vos fosses nasales avec des sprays d'eau ou du sérum physiologique. prenez un antalgique (paracétamol). reposez-vous." }
-        ]
-      },
-      {
-        "intent": "dep.soign",
-        "utterances": [
-          "je pense que je fais une dépression",
-          "je suis malade mentalement"
-        ],
-        "answers": [
-          { "answer": "ne sois pas ! tu es assez fort" },
-          { "answer": "tout va bien se passer! réconforter" },
-          { "answer": "vous pouvez consulter un médecin si vous en avez vraiment besoin, sinon parlez-en à quelqu'un"}
-        ]
-      },
-      {
-        "intent": "sante.conseil",
-        "utterances": [
-          "donnez-moi des conseils de santé",
-          "conseils de santé",
-          "un conseil de santé?"
-        ],
-        "answers": [
-          { "answer": "ne code pas" },
-          { "answer": "Restez hydraté" },
-          { "answer": "faire du sport" },
-          { "answer": "Mangez sain"}
-        ]
-      },
-      {
-        "intent": "pertePois.asstuces",
-        "utterances": [
-          "perte de poids",
-          "conseils pour perdre du poids",
-          "donne moi des conseils pour perdre du poidss"
-        ],
-        "answers": [
-          { "answer": "voici quelques conseils : Ne sautez pas le petit-déjeuner Prenez des repas réguliers Mangez beaucoup de fruits et de légumes Buvez beaucoup d'eau Mangez des aliments riches en fibres Utilisez une assiette plus petite Faites du sport" }
-        ]
-      },
-      {
-        "intent": "aptitude.exo",
-        "utterances": [
-          "quel genre de sport pratiquer pour maigrir ?",
-          "quel genre de sport pratiquer pour perdre du poids ?"
-        ],
-        "answers": [
-          { "answer": "cardio running stretching marche natation et toute autre activité qui implique des efforts" }
-        ]
-      },
-      {
-        "intent": "user.redirect",
-        "utterances": [
-          "Puis-je parler à un vrai humain ?",
-          "Veuillez me connecter à une personne vivante",
-          "Veuillez me rediriger vers un employé",
-          "Puis-je parler à quelqu'un d'humain ?",
-          "Puis-je voir un opérateur humain s'il vous plaît ?",
-          "Je veux entrer dans le chat en direct",
-          "Je déteste les chatbots en fait, alors s'il vous plaît, pourriez-vous sortir de mon écran et me connecter à quelqu'un fait de chair merci"
-        ]
-      },
-      {
-        "intent": "user.thanking",
-        "utterances": [
-          "merci",
-          "mrc",
-          "merci beaucoup",
-          "mrc bcp"
-        ],
-        "answers": [
-          { "answer": "pas de soucis!"},
-          { "answer": "avec plaisir!"},
-          { "answer": "de rien!"}
-        ]
-      },
-      {
-        "intent": "user.pricing",
-        "utterances": [
-          "Puis-je voir les prix ?",
-          "Quel est le prix ?",
-          "Combien ça coûte?",
-          "Combien dois-je payer ?"
-        ],
-        "answers": [
-          { "answer": "les prix sont ici: https://stormotion.io/"}
-        ]
-      },
-      {
-        "intent": "user.book",
-        "utterances": [
-          "Je souhaite prendre rendez-vous",
-          "je veux voir le doc",
-          "Puis-je voir le médecin?",
-          "Quand le médecin est-il disponible ?",
-          "Je veux de l'aide avec mon genou",
-          "Je veux voir @doctor",
-          "J'aimerais visiter @doctor",
-          "@doctor est-il disponible ?",
-          "une autre réservation svp"
-        ]
-      }
-    ],
-    "entities": {
-      "doctor": {
-        "options": {
-          "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
-          "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
-          "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
-        }
+  "name": "Corpus fr",
+  "locale": "fr-FR",
+  "data": [
+    {
+      "intent": "bonjour.bnj",
+      "utterances": [
+        "bonsoir",
+        "bonjour",
+        "coucou",
+        "salut"
+      ],
+      "answers": [
+        { "answer": "Bonjour!"},
+        { "answer":"salut!"},
+        { "answer":"coucou"}
+      ]
+    },
+    {
+      "intent": "bonjour.tpfr",
+      "utterances": [
+        "tu parle français?",
+        "tu parle en français?",
+        "est ce que tu parle en français",
+        "tu parle anglais?",
+        "tu parle en anglais?",
+        "est ce que tu parle en anglais",
+        "tu parle espagnol?",
+        "tu parle en espagnol?",
+        "est ce que tu parle en espagnol",
+        "tu parle chinois?",
+        "tu parle en chinois?",
+        "est ce que tu parle en chinois"
+      ],
+      "answers": [
+        { "answer": "oui bien sure!"},
+        { "answer":"ouais!"}
+      ]
+    },
+    {
+      "intent": "frbye.byye",
+      "utterances": [
+        "ciao",
+        "au revoir",
+        "à bien tot",
+        "à plus",
+        "à la prochaine"
+      ],
+      "answers": [
+        { "answer": "à plus!" },
+        { "answer": "au revoir!"},
+        { "answer": "à la prochaine!"}
+      ]
+    },
+    {
+      "intent": "bonjour.commentVaTu",
+      "utterances": [
+        "comment vas-tu?",
+        "ça va?",
+        "cv?"
+      ],
+      "answers": [
+        { "answer": "parfait! merci" },
+        { "answer": "cv bien merci" }
+      ]
+    },
+    {
+      "intent": "bnj.tfq",
+      "utterances": [
+        "tu fais quoi?",
+        "qu'est ce que tu fait?"
+      ],
+      "answers": [
+        { "answer": "j'attend votre questions :)" }
+      ]
+    },
+    {
+      "intent": "bnj.age",
+      "utterances": [
+        "tu as quel age?",
+        "t'as quel age"
+      ],
+      "answers": [
+        { "answer": "3 mois" }
+      ]
+    },
+    {
+      "intent": "bnj.nom",
+      "utterances": [
+        "comment tu t'appel?",
+        "c'est quoi ton nom?",
+        "c quoi ton nom?"
+      ],
+      "answers": [
+        { "answer": "je m'appel eugeo" }
+      ]
+    },
+    {
+      "intent": "bnj.tqui",
+      "utterances": [
+        "t'es qui",
+        "tu es qui",
+        "vous etes qui?"
+      ],
+      "answers": [
+        { "answer": "je suis le meilleur assistant medical" }
+      ]
+    },
+    {
+      "intent": "bnj.qst",
+      "utterances": [
+        "j'ai une question",
+        "j une question"
+      ],
+      "answers": [
+        { "answer": "vas y" },
+        { "answer": "comment je peut vous aider?" }
+      ]
+    },
+    {
+      "intent": "autisme.symptomes",
+      "utterances": [
+        "les symptômes d'autisme",
+        "les signes d'autisme",
+        "se sont quoi les signes d'autisme",
+        "se sont quoi les symptômes d'autisme"
+      ],
+      "answers": [
+        { "answer": "l'absence ou la quasi-absence de babillage. l'absence ou la quasi-absence de contact visuel. l'intérêt plus poussé pour les objets que pour les personnes. l'impression que l'enfant n'écoute pas quand on lui parle directement. la manipulation de jouets exécutée de manière inhabituelle ou limitée." }
+      ]
+    },
+    {
+      "intent": "can.symptomes",
+      "utterances": [
+        "les symptômes du cancer",
+        "les signes du cancer",
+        "se sont quoi les signes du cancer",
+        "se sont quoi les symptômes du cancer"
+      ],
+      "answers": [
+        { "answer": "Perte de poids inexpliquée. Fatigue. Sueurs nocturnes. Perte d'appétit. Douleur nouvelle et prolongée. Nausées ou vomissements récurrents. Sang dans l'urine. Sang dans les selles" }
+      ]
+    },
+    {
+      "intent": "dep.symptomes",
+      "utterances": [
+        "les symptômes de dépression",
+        "les signes de dépression",
+        "se sont quoi les signes de dépression",
+        "se sont quoi les symptômes de dépression"
+      ],
+      "answers": [
+        { "answer": "une grande tristesse. une très importante perte d'intérêt pour les activités professionnelles, sociales et familiales. un sentiment de culpabilité ou d'échec. une diminution de l'estime de soi. de la difficulté à se concentrer sur une tâche. de la difficulté à prendre des décisions." }
+      ]
+    },
+    {
+      "intent": "grippeIntestinale.symp",
+      "utterances": [
+        "les symptômes de grippe intestinale",
+        "les signes du grippe intestinale",
+        "se sont quoi les signes du grippe intestinale",
+        "se sont quoi les symptômes du grippe intestinale"
+      ],
+      "answers": [
+        { "answer": "des maux de tête. des frissons. des crampes musculaires. de la fièvre légère. une sensation générale de faiblesse et de fatigue." }
+      ]
+    },
+    {
+      "intent": "InfectionPulmonaire.symp",
+      "utterances": [
+          "les symptômes d'infection pulmonaire",
+          "les signes d'infection pulmonaire",
+          "se sont quoi les signes d'infection pulmonaire'",
+          "se sont quoi les symptômes d'infection pulmonaire"
+      ],
+      "answers": [
+        { "answer": "une fièvre d'emblée importante (39 - 40° C) avec des frissons. une toux sèche. un essoufflement. une douleur thoracique intense, d'un seul côté lors de la toux ou de la respiration. un malaise général." }
+      ]
+    },
+    {
+      "intent": "LAlzheimer.symp",
+      "utterances": [
+          "les symptômes d'alzheimer",
+          "les signes d'alzheimer",
+          "se sont quoi les signes d'alzheimer",
+          "se sont quoi les symptômes d'alzheimer"
+      ],
+      "answers": [
+        { "answer": "les pertes de mémoire. les difficultés croissantes pour accomplir des tâches familières. la perte de motivation. les problèmes de langage. la désorientation dans le temps et dans l'espace. les difficultés de raisonnement." }
+      ]
+    },
+    {
+      "intent": "fievre.soign",
+      "utterances": [
+        "comment guérir la fièvre sans médicaments",
+        "guérir la fièvre sans médicaments"
+      ],
+      "answers": [
+        { "answer": "Faire boire de l'eau régulièrement. passer un gant d'eau froide. Tisane. Le miel" }
+      ]
+    },
+    {
+      "intent": "rhume.soign",
+      "utterances": [
+        "comment soigner le rhume sans médicaments",
+        "soigner le rhume sans médicaments"
+      ],
+      "answers": [
+        { "answer": "mouchez-vous régulièrement. nettoyez vos fosses nasales avec des sprays d'eau ou du sérum physiologique. prenez un antalgique (paracétamol). reposez-vous." }
+      ]
+    },
+    {
+      "intent": "dep.soign",
+      "utterances": [
+        "je pense que je fais une dépression",
+        "je suis malade mentalement"
+      ],
+      "answers": [
+        { "answer": "ne sois pas ! tu es assez fort" },
+        { "answer": "tout va bien se passer! réconforter" },
+        { "answer": "vous pouvez consulter un médecin si vous en avez vraiment besoin, sinon parlez-en à quelqu'un"}
+      ]
+    },
+    {
+      "intent": "sante.conseil",
+      "utterances": [
+        "donnez-moi des conseils de santé",
+        "conseils de santé",
+        "un conseil de santé?"
+      ],
+      "answers": [
+        { "answer": "ne code pas" },
+        { "answer": "Restez hydraté" },
+        { "answer": "faire du sport" },
+        { "answer": "Mangez sain"}
+      ]
+    },
+    {
+      "intent": "pertePois.asstuces",
+      "utterances": [
+        "perte de poids",
+        "conseils pour perdre du poids",
+        "donne moi des conseils pour perdre du poidss"
+      ],
+      "answers": [
+        { "answer": "voici quelques conseils : Ne sautez pas le petit-déjeuner Prenez des repas réguliers Mangez beaucoup de fruits et de légumes Buvez beaucoup d'eau Mangez des aliments riches en fibres Utilisez une assiette plus petite Faites du sport" }
+      ]
+    },
+    {
+      "intent": "aptitude.exo",
+      "utterances": [
+        "quel genre de sport pratiquer pour maigrir ?",
+        "quel genre de sport pratiquer pour perdre du poids ?"
+      ],
+      "answers": [
+        { "answer": "cardio running stretching marche natation et toute autre activité qui implique des efforts" }
+      ]
+    },
+    {
+      "intent": "user.redirect",
+      "utterances": [
+        "Puis-je parler à un vrai humain ?",
+        "Veuillez me connecter à une personne vivante",
+        "Veuillez me rediriger vers un employé",
+        "Puis-je parler à quelqu'un d'humain ?",
+        "Puis-je voir un opérateur humain s'il vous plaît ?",
+        "Je veux entrer dans le chat en direct",
+        "Je déteste les chatbots en fait, alors s'il vous plaît, pourriez-vous sortir de mon écran et me connecter à quelqu'un fait de chair merci"
+      ]
+    },
+    {
+      "intent": "user.thankingFR",
+      "utterances": [
+        "merci",
+        "mrc",
+        "merci beaucoup",
+        "mrc bcp"
+      ],
+      "answers": [
+        { "answer": "pas de soucis!"},
+        { "answer": "avec plaisir!"},
+        { "answer": "de rien!"}
+      ]
+    },
+    {
+      "intent": "user.pricing",
+      "utterances": [
+        "Puis-je voir les prix ?",
+        "Quel est le prix ?",
+        "Combien ça coûte?",
+        "Combien dois-je payer ?"
+      ],
+      "answers": [
+        { "answer": "les prix sont ici: https://stormotion.io/"}
+      ]
+    },
+    {
+      "intent": "user.book",
+      "utterances": [
+        "Je souhaite prendre rendez-vous",
+        "je veux voir le doc",
+        "Puis-je voir le médecin?",
+        "Quand le médecin est-il disponible ?",
+        "Je veux de l'aide avec mon genou",
+        "Je veux voir @doctor",
+        "J'aimerais visiter @doctor",
+        "@doctor est-il disponible ?",
+        "une autre réservation svp"
+      ]
+    }
+  ],
+  "entities": {
+    "doctor": {
+      "options": {
+        "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
+        "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
+        "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
       }
     }
   }
+}

@@ -1,23 +1,230 @@
 {
-    "name": "Corpus 50",
-    "locale": "es-ES",
-    "data": [
-      {
-        "intent": "support.app_name",
-        "utterances": [
-          "cuál es el nombre de tu aplicación",
-          "cómo se llama tu app",
-          "dime el nombre de tu app",
-          "nombre de tu aplicación",
-          "me gustaría saber el nombre de tu app"
-        ],
-        "answers": [
-          { "answer": "nombres de tus apps"},
-          { "answer":"dime los nombres de tus aplicaciones"},
-          { "answer":"¿Cómo se llama tu aplicación?"},
-          { "answer":"Nombre de tu app"},
-          { "answer":"el nombre de tu aplicación?"}
-        ]
+  "name": "Corpus es",
+  "locale": "es-ES",
+  "data": [
+    {
+      "intent": "hola.hola",
+      "utterances": [
+        "Buenos dias",
+        "Hola"
+      ],
+      "answers": [
+        { "answer": "Hola!"}
+      ]
+    },
+    {
+      "intent": "EsHablas.eshablas",
+      "utterances": [
+        "habla usted Inglés",
+        "Habla usted francés",
+        "Hablas chino",
+        "hablas español"
+      ],
+      "answers": [
+        { "answer": "si lo hablo"}
+      ]
+    },
+    {
+      "intent": "esbye.byyes",
+      "utterances": [
+        "adiós",
+        "hasta pronto"
+      ],
+      "answers": [
+        { "answer": "adiós!" }
+      ]
+    },
+    {
+      "intent": "hola.comoestas",
+      "utterances": [
+        "como estas"
+      ],
+      "answers": [
+        { "answer": "Estoy bien gracias" }
+      ]
+    },
+    {
+      "intent": "hola.tfqes",
+      "utterances": [
+        "¿qué haces?"
+      ],
+      "answers": [
+        { "answer": "estoy esperando tus preguntas :)" }
+      ]
+    },
+    {
+      "intent": "hola.ageEs",
+      "utterances": [
+        "¿qué edad tienes?"
+      ],
+      "answers": [
+        { "answer": "3 meses" }
+      ]
+    },
+    {
+      "intent": "hola.nameEs",
+      "utterances": [
+        "¿como te llamas?",
+        "¿cual es tu nombre?"
+      ],
+      "answers": [
+        { "answer": "me llamo eugeo" }
+      ]
+    },
+    {
+      "intent": "hola.tuqui",
+      "utterances": [
+        "quién eres"
+      ],
+      "answers": [
+        { "answer": "soy el mejor asistente medico" }
+      ]
+    },
+    {
+      "intent": "hola.qstEs",
+      "utterances": [
+        "tengo una pregunta"
+      ],
+      "answers": [
+        { "answer": "adelante dime" },
+        { "answer": "¿Le puedo ayudar en algo?" }
+      ]
+    },
+    {
+      "intent": "autismeES.ESsymptomes",
+      "utterances": [
+        "cuales son los sintomas del autismo"
+      ],
+      "answers": [
+        { "answer": "la ausencia o casi ausencia de balbuceo. la ausencia o casi ausencia de contacto visual. el mayor interés por los objetos que por las personas. la impresión de que el niño no escucha cuando se le habla directamente. manipulación de juguetes realizada de manera inusual o limitada." }
+      ]
+    },
+    {
+      "intent": "canEs.Essymptomes",
+      "utterances": [
+        "cuales son los sintomas del cancer"
+      ],
+      "answers": [
+        { "answer": "Pérdida de peso inexplicable. Cansado. Sudores nocturnos. Pérdida de apetito. Dolor nuevo y prolongado. Náuseas o vómitos recurrentes. Sangre en la orina. Sangre en heces" }
+      ]
+    },
+    {
+      "intent": "depEs.symptomesES",
+      "utterances": [
+        "cuales son los sintomas de la depresion"
+      ],
+      "answers": [
+        { "answer": "gran tristeza. una pérdida muy importante de interés por las actividades profesionales, sociales y familiares. Sentimientos de culpa o fracaso. una disminución de la autoestima. dificultad para concentrarse en una tarea. dificultad para tomar decisiones." }
+      ]
+    },
+    {
+      "intent": "InfectionPulmonaireES.Essymp",
+      "utterances": [
+          "¿Cuáles son los síntomas de la infección pulmonar?"
+      ],
+      "answers": [
+        { "answer": "fiebre alta desde el principio (39 - 40° C) con escalofríos. una tos seca dificultad para respirar. dolor severo en el pecho en un lado solo al toser o respirar. malestar general." }
+      ]
+    },
+    {
+      "intent": "LAlzheimerES.ESsymp",
+      "utterances": [
+          "cuales son los sintomas del alzheimer"
+      ],
+      "answers": [
+        { "answer": "pérdida de memoria. dificultad creciente para realizar tareas familiares. pérdida de motivación. problemas de lenguaje desorientación en el tiempo y el espacio. dificultades de razonamiento." }
+      ]
+    },
+    {
+      "intent": "fievreES.soignES",
+      "utterances": [
+        "curar la fiebre sin medicamentos"
+      ],
+      "answers": [
+        { "answer": "Beba agua regularmente. pasar un guante de agua fría. Tisana. La miel" }
+      ]
+    },
+    {
+      "intent": "rhumeEs.soignES",
+      "utterances": [
+        "tratar los resfriados sin medicamentos"
+      ],
+      "answers": [
+        { "answer": "sonarse la nariz regularmente. limpie sus cavidades nasales con aerosoles de agua o solución salina. tomar un analgésico (paracetamol). descanse." }
+      ]
+    },
+    {
+      "intent": "depEs.soignEs",
+      "utterances": [
+        "creo que tengo depresión"
+      ],
+      "answers": [
+        { "answer": "No ser ! eres lo suficientemente fuerte" },
+        { "answer": "¡todo va a estar bien! comodidad" }
+      ]
+    },
+    {
+      "intent": "santeES.conseilES",
+      "utterances": [
+        "dame consejos de salud"
+      ],
+      "answers": [
+        { "answer": "no codifiques" },
+        { "answer": "Mantente hidratado" },
+        { "answer": "hacer deporte" },
+        { "answer": "Come sano"}
+      ]
+    },
+    {
+      "intent": "pertePoisEs.asstucesEs",
+      "utterances": [
+        "dame consejos para bajar de peso"
+      ],
+      "answers": [
+        { "answer": "Estos son algunos consejos: No se salte el desayuno Coma comidas regulares Coma muchas frutas y verduras Beba mucha agua Coma alimentos ricos en fibra Use un plato más pequeño Haga ejercicio" }
+      ]
+    },
+    {
+      "intent": "aptitudeES.exoES",
+      "utterances": [
+        "quel genre de sport pratiquer pour perdre du poids ?"
+      ],
+      "answers": [
+        { "answer": "¿Qué tipo de deporte practicar para adelgazar?" }
+      ]
+    },
+    {
+      "intent": "userES.thankingES",
+      "utterances": [
+        "Gracias"
+      ],
+      "answers": [
+        { "answer": "¡no hay problema!"}
+      ]
+    },
+    {
+      "intent": "userES.pricingES",
+      "utterances": [
+        "¿Cuanto cuesta?"
+      ],
+      "answers": [
+        { "answer": "los precios estan aqui: https://stormotion.io/"}
+      ]
+    },
+    {
+      "intent": "user.bookES",
+      "utterances": [
+        "quiero hacer una cita"
+      ]
+    }
+  ],
+  "entities": {
+    "doctor": {
+      "options": {
+        "christine": ["Christine", "Christie", "Christine Collins", "The woman with black hair", "the female doctor"],
+        "josh": ["Josh", "Joshua", "Josh Stammer", "The main with glasses"],
+        "abraham": ["Abraham", "Abraham Brown", "Abe", "The man with brown curly hair"]
       }
-    ]
+    }
   }
+}
