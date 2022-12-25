@@ -116,9 +116,7 @@ function ChatBotRobot({ socket, open }) {
     }
   });
   const handleSpeakerClick = () => {
-    console.log(`before click ${isSpeaking}`);
     setIsSpeaking(!isSpeaking);
-    console.log(`after click ${isSpeaking}`);
   };
 
   return (
