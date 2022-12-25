@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { CiPaperplane } from "react-icons/ci";
+import { GiSpeaker, GiSpeakerOff } from "react-icons/gi";
 import { BsFillMicMuteFill } from "react-icons/bs";
 import { BsFillMicFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
@@ -41,6 +42,7 @@ function ChatBotRobot({ socket, open }) {
   const [messages, setMessages] = useState([]);
   const [user, setUser] = useState(undefined);
   const [isListening, setIsListening] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
   const {
     transcript,
     listening,
@@ -65,7 +67,6 @@ function ChatBotRobot({ socket, open }) {
     !isListening
       ? SpeechRecognition.startListening()
       : SpeechRecognition.stopListening();
-    console.log(transcript);
     isListening ? sendMessage(transcript) : "";
   };
   useEffect(() => {
@@ -85,6 +86,8 @@ function ChatBotRobot({ socket, open }) {
 
   useEffect(() => {
     socket.on("response", (data) => {
+      const utterance = new SpeechSynthesisUtterance(data);
+      window.speechSynthesis.speak(utterance);
       setMessages((list) => [
         ...list,
         {
@@ -112,12 +115,36 @@ function ChatBotRobot({ socket, open }) {
       return <IncomingMessage key={message.id} message={message} />;
     }
   });
+  const handleSpeakerClick = () => {
+    setIsSpeaking(!isSpeaking);
+  };
 
   return (
     <>
       <div
         className={open ? "chat-box chat-box-open" : "chat-box chat-box-closed"}
       >
+        <div className="chat-box-header">
+          <p className="chat-box-status">
+            <span className="pulse-animation"></span>
+            <span className="chat-box-status-indicator"></span>
+            <span>Eugeo</span>
+            <span>On Line</span>
+          </p>
+          <div className="chat-box-header-buttons">
+            <button type="button" onClick={handleSpeakerClick}>
+              {isSpeaking ? (
+                <IconContext.Provider value={{ color: "#fff", size: "2.5rem" }}>
+                  <GiSpeaker />
+                </IconContext.Provider>
+              ) : (
+                <IconContext.Provider value={{ color: "#fff", size: "2.5rem" }}>
+                  <GiSpeakerOff />
+                </IconContext.Provider>
+              )}
+            </button>
+          </div>
+        </div>
         <ScrollToBottom className="chat-box-body">
           {displayedMessages}
         </ScrollToBottom>
